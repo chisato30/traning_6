@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.event_banner {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.stocksun_logo {
+  position: absolute;
+  width: 186.78px;
+  height: 48.6px;
+  top: 14.44px;
+  left: 40.59px;
+  z-index: 10; /* 他の要素より前面に表示 */
+}
+
+.stocksun_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.title {
+  position: absolute;
+  width: 562px;
+  height: 342.34px;
+  top: 180.71px;
+  left: 439px;
+  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+  z-index: 10;
+}
+
+.title_wrapper {
+  position: absolute;
+  width: 562px;
+  height: 342.34px;
+  top: 180.71px;
+  left: 439px;
+  z-index: 10;
+}
+
+.event_description {
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  top: 104px;
+  left: 480px;
+  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+  z-index: 10;
+}
+
+.date_image {
+  position: absolute;
+  width: 372px;
+  height: 70.75px;
+  top: 542.25px;
+  left: 534px;
+  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+  z-index: 10;
+}
+
+.venue_image {
+  position: absolute;
+  width: 408px;
+  height: 35px;
+  top: 604px;
+  left: 516px;
+  /* opacity: 1; 
+  z-index: 10; */
+}
+
+.apply_button_rapper {
+  position: absolute;
+  width: 420px;
+  height: 60px;
+  top: 685px;
+  left: 510px;
+  z-index: 10;
+}
+
+.apply_button {
+  width: 100%;
+  height: 100%;
+  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+}
+
+/* 他の要素の位置も調整 */
+.event_description,
+.stocksun_logo,
+/* .title, */
+.date_image,
+.venue_image {
+    position: absolute;
+    z-index: 10;
+}
+
+.hide_dym {
+  display: none;
+}
+
+/* 既存のスタイルを調整 */
+header .absolute {
+  z-index: 5; /* stocksun-logoより後ろに配置 */
+}
+
+/* iPhone 13向けのレスポンシブスタイル */
+@media screen and (max-width: 390px) {
+  
+  .event_banner {
+    width: 495px;
+    height: 530px;
+    top: -68px;
+    left: -25px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+
+.title {
+  width: 302px;
+height: 145.61px;
+top: 119px;
+left: 44px;
+gap: 0px;
+opacity: 0px;
+}
+
+  .stocksun_logo {
+    width: 76.6px;
+    height: 19.93px;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+  }
+
+  .event_description {
+    width: 272px;
+    height: 15px;
+    position: absolute;
+    top: 75.94px;
+    left: 59px;
+  }
+
+  .date_image {
+    width: 202.34px;
+    height: 38.48px;
+    position: absolute;
+    top: 326.39px;
+    left: 93.72px;
+  }
+
+  .venue_image {
+    width: 218px;
+    height: 19px;
+    position: absolute;
+    top: 360px;
+    left: 86px;
+  }
+
+  .hide_dym {
+    display: block;
+    width: 257px;
+height: 24.15px;
+top: 280.68px;
+left: 66px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+  }
+/*画面最下部に配置するが、一時的に削除*/
+  .apply_button
+   {
+    display: none;
+  }
+}
