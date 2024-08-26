@@ -6,7 +6,7 @@
 
 .event_banner {
   width: 100%;
-  height: 130vh;
+  height: auto;
   object-fit: cover;
 }
 
@@ -16,7 +16,7 @@
   height: 48.6px;
   top: 14.44px;
   left: 40.59px;
-  z-index: 10; /* 他の要素より前面に表示 */
+  z-index: 10; 
 }
 
 .stocksun_logo img {
@@ -31,7 +31,7 @@
   height: 342.34px;
   top: 180.71px;
   left: 439px;
-  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+  opacity: 1; 
   z-index: 10;
 }
 
@@ -46,21 +46,20 @@
 
 .event_description {
   position: absolute;
-  width: 480px;
-  height: 33px;
-  top: 104px;
-  left: 480px;
-  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
-  z-index: 10;
+  width: 470px;
+  height: 30px;
+  top: 105px;
+  left: 483px;
+  opacity: 1; 
 }
 
 .date_image {
   position: absolute;
-  width: 372px;
-  height: 70.75px;
+  width: 378px;
+  height: 69.75px;
   top: 542.25px;
-  left: 534px;
-  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+  left: 529px;
+  opacity: 1; 
   z-index: 10;
 }
 
@@ -70,8 +69,6 @@
   height: 35px;
   top: 604px;
   left: 516px;
-  /* opacity: 1; 
-  z-index: 10; */
 }
 
 .apply_button_rapper {
@@ -86,13 +83,12 @@
 .apply_button {
   width: 100%;
   height: 100%;
-  opacity: 1; /* 0ではなく1に設定しました。完全に透明にしたくない場合 */
+  opacity: 1; 
 }
 
-/* 他の要素の位置も調整 */
+
 .event_description,
 .stocksun_logo,
-/* .title, */
 .date_image,
 .venue_image {
     position: absolute;
@@ -103,17 +99,70 @@
   display: none;
 }
 
-/* 既存のスタイルを調整 */
 header .absolute {
-  z-index: 5; /* stocksun-logoより後ろに配置 */
+  z-index: 5; 
 }
 
-/* iPhone 13向けのレスポンシブスタイル */
+ @media screen and (max-width: 1439px) {
+  .title {
+    position: absolute;
+    top: 180.71px;
+    z-index: 10;
+    max-width: 100%;
+    right: 0px;
+    left: 0px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .event_description {
+    right: 0px;
+    left: 0px;
+    top: 105px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-right-width: 0px;
+  }
+  
+  .date_image {
+    position: absolute;
+    max-width: 100%;
+    margin: 0 auto;
+    top: 542.25px;
+    opacity: 1;
+    z-index: 10;
+    right: 0px;
+    left: 0px;
+    height: auto;
+  }
+  
+  .venue_image {
+    position: absolute;
+    height: auto;
+    top: 604px;
+    left: 0px;
+    right: 0px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .apply_button_rapper {
+    position: absolute;
+    height: auto;
+    top: 685px;
+    left: 0px;
+    max-width: 100%;
+    margin: 0 auto;
+    right: 0px;
+    z-index: 10;
+  }
+} 
+
 @media screen and (max-width: 390px) {
   
   .event_banner {
     width: 495px;
-    height: 530px;
+    height: 462px;
     top: -68px;
     left: -25px;
     gap: 0px;
@@ -125,7 +174,7 @@ header .absolute {
   width: 302px;
 height: 145.61px;
 top: 119px;
-left: 44px;
+left: 1px;
 gap: 0px;
 opacity: 0px;
 }
@@ -139,27 +188,27 @@ opacity: 0px;
   }
 
   .event_description {
-    width: 272px;
+    width: 268px;
     height: 15px;
     position: absolute;
-    top: 75.94px;
-    left: 59px;
+    top: 76.94px;
+    left: 1px;
   }
 
   .date_image {
-    width: 202.34px;
-    height: 38.48px;
+    width: 205.34px;
+    height: 36.48px;
     position: absolute;
     top: 326.39px;
-    left: 93.72px;
+    left: -3.28px;
   }
 
   .venue_image {
-    width: 218px;
-    height: 19px;
+    width: 220px;
+    height: 20px;
     position: absolute;
     top: 360px;
-    left: 86px;
+    left: -2px;
   }
 
   .hide_dym {

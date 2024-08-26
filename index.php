@@ -19,7 +19,6 @@
   <source media="(max-width: 390px)" srcset="image/Group 184.png">
   <img src="image/Group 183 (1).png" alt="Event Banner" class="event_banner">
 </picture>
-       <!-- <img src="image/Group 183 (1).png" alt="Event Banner" class="event_banner"> -->
        <div class="header-content">
         <img src="image/日本最大規模のフリーランスイベント.png" alt="日本最大規模のフリーランスイベント" class="event_description">
         <img src="image/stocksun_logo.png" alt="StockSun Logo"class="stocksun_logo">
@@ -28,7 +27,6 @@
                 <img src="image/kv.svg" alt="FREELANCE SUMMIT" class="title">
         </picture>
             <img src="image/sub_title.png" alt="Sub Title" class="sub_title">
-        <!-- <img src="image/kv.svg" alt="FREELANCE SUMMIT" class="title">     -->
         <img src="image/sub_title.png" alt="suponserted by DYMテック" class="hide_dym">
         <img src="image/日付.png" alt="3/4 Sat 10:00-18:00" class="date_image">
             <img src="image/東京国際フォーラム ホールE2.png" alt="東京国際フォーラム ホールE2" class="venue_image">
@@ -38,7 +36,6 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="px-4 py-8">
         <!-- Freelance Summit Section -->
         <section class="text-center">
