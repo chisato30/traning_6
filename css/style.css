@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .event_banner {
@@ -16,7 +16,7 @@
   height: 48.6px;
   top: 14.44px;
   left: 40.59px;
-  z-index: 10; 
+  z-index: 10;
 }
 
 .stocksun_logo img {
@@ -31,8 +31,9 @@
   height: 342.34px;
   top: 180.71px;
   left: 439px;
-  opacity: 1; 
+  opacity: 1;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .title_wrapper {
@@ -42,6 +43,7 @@
   top: 180.71px;
   left: 439px;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .event_description {
@@ -50,7 +52,8 @@
   height: 30px;
   top: 105px;
   left: 483px;
-  opacity: 1; 
+  opacity: 1;
+  margin: 0 auto;
 }
 
 .date_image {
@@ -59,8 +62,9 @@
   height: 69.75px;
   top: 542.25px;
   left: 529px;
-  opacity: 1; 
+  opacity: 1;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .venue_image {
@@ -69,6 +73,7 @@
   height: 35px;
   top: 604px;
   left: 516px;
+  margin: 0 auto;
 }
 
 .apply_button_rapper {
@@ -78,21 +83,21 @@
   top: 685px;
   left: 510px;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .apply_button {
   width: 100%;
   height: 100%;
-  opacity: 1; 
+  opacity: 1;
 }
-
 
 .event_description,
 .stocksun_logo,
 .date_image,
 .venue_image {
-    position: absolute;
-    z-index: 10;
+  position: absolute;
+  z-index: 10;
 }
 
 .hide_dym {
@@ -100,66 +105,421 @@
 }
 
 header .absolute {
-  z-index: 5; 
+  z-index: 5;
 }
 
- @media screen and (max-width: 1439px) {
+@media (min-width: 1441px) {
+  .event_banner {
+    max-width: 960px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .event_description {
+    position: absolute;
+    height: auto;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+    max-width: 30%;
+    margin: 0 auto;
+  }
+
+  .stocksun_logo {
+    position: absolute;
+    width: 186.78px;
+    height: auto;
+    top: 10.44px;
+    left: 295.59px;
+    max-width: 10%;
+    z-index: 10;
+  }
+
   .title {
     position: absolute;
-    top: 180.71px;
+    height: auto;
+    right: 0px;
+    max-width: 27%;
+    top: 96.71px;
+    left: 0px;
+    opacity: 1;
     z-index: 10;
-    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .date_image {
+    position: absolute;
+    height: auto;
+    top: 359.25px;
+    max-width: 23%;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: 10;
+    margin: 0 auto;
+  }
+
+  .venue_image {
+    position: absolute;
+    height: auto;
+    top: 405px;
+    left: 0px;
+    right: 0px;
+    max-width: 25%;
+    margin: 0 auto;
+  }
+
+  .apply_button_rapper {
+    position: absolute;
+    width: 420px;
+    height: auto;
+    top: 450px;
+    max-width: 23%;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    margin: 0 auto;
+  }
+}
+
+/* 1920まで */
+@media (min-width: 1700px) {
+  .event_description {
+    position: absolute;
+    height: auto;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+    max-width: 20%;
+    margin: 0 auto;
+  }
+
+  .stocksun_logo {
+    position: absolute;
+    width: 186.78px;
+    height: auto;
+    top: 10.44px;
+    left: 478.59px;
+    max-width: 7%;
+    z-index: 10;
+  }
+
+  .title {
+    position: absolute;
+    height: auto;
+    right: 0px;
+    max-width: 19%;
+    top: 89.71px;
+    left: 0px;
+    opacity: 1;
+    z-index: 10;
+    margin: 0 auto;
+  }
+
+  .date_image {
+    position: absolute;
+    height: auto;
+    top: 319.25px;
+    max-width: 16%;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: 10;
+    margin: 0 auto;
+  }
+
+  .venue_image {
+    position: absolute;
+    height: auto;
+    top: 361px;
+    left: 0px;
+    right: 0px;
+    max-width: 17%;
+    margin: 0 auto;
+  }
+
+  .apply_button_rapper {
+    position: absolute;
+    width: 420px;
+    height: auto;
+    top: 403px;
+    max-width: 16%;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    margin: 0 auto;
+  }
+}
+
+/* 1700まで */
+@media (min-width: 1550px) {
+  .event_description {
+    position: absolute;
+    height: auto;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+    max-width: 24%;
+    margin: 0 auto;
+  }
+
+  .stocksun_logo {
+    position: absolute;
+    width: 186.78px;
+    height: auto;
+    top: 10.44px;
+    left: 369.59px;
+    max-width: 9%;
+    z-index: 10;
+  }
+
+  .title {
+    position: absolute;
+    height: auto;
+    right: 0px;
+    max-width: 22%;
+    top: 89.71px;
+    left: 0px;
+    opacity: 1;
+    z-index: 10;
+    margin: 0 auto;
+  }
+
+  .date_image {
+    position: absolute;
+    height: auto;
+    top: 320.25px;
+    max-width: 18%;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: 10;
+    margin: 0 auto;
+  }
+
+  .venue_image {
+    position: absolute;
+    height: auto;
+    top: 361px;
+    left: 0px;
+    right: 0px;
+    max-width: 20%;
+    margin: 0 auto;
+  }
+
+  .apply_button_rapper {
+    position: absolute;
+    width: 420px;
+    height: auto;
+    top: 403px;
+    max-width: 19%;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .stocksun_logo {
+    position: absolute;
+    height: auto;
+    top: 10.44px;
+    left: 10px;
+    z-index: 10;
+    max-width: 20%;
+  }
+
+  .title {
+    position: absolute;
+    top: 130.71px;
+    z-index: 10;
+    max-width: 35%;
     right: 0px;
     left: 0px;
     height: auto;
     margin: 0 auto;
   }
-  
+
   .event_description {
     right: 0px;
     left: 0px;
-    top: 105px;
-    max-width: 100%;
+    top: 60px;
+    height: auto;
+    max-width: 35%;
     margin: 0 auto;
     border-right-width: 0px;
   }
-  
+
   .date_image {
     position: absolute;
-    max-width: 100%;
+    max-width: 30%;
     margin: 0 auto;
-    top: 542.25px;
+    top: 425.25px;
     opacity: 1;
     z-index: 10;
     right: 0px;
     left: 0px;
     height: auto;
   }
-  
+
   .venue_image {
     position: absolute;
     height: auto;
-    top: 604px;
+    top: 485px;
     left: 0px;
     right: 0px;
-    max-width: 100%;
+    max-width: 30%;
     margin: 0 auto;
   }
-  
+
   .apply_button_rapper {
     position: absolute;
     height: auto;
-    top: 685px;
+    top: 535px;
     left: 0px;
-    max-width: 100%;
+    max-width: 30%;
     margin: 0 auto;
     right: 0px;
     z-index: 10;
   }
-} 
+}
+
+@media screen and (max-width: 1000px) {
+  .stocksun_logo {
+    position: absolute;
+    height: auto;
+    top: 5.44px;
+    left: 5px;
+    z-index: 10;
+    max-width: 15%;
+  }
+
+  .title {
+    position: absolute;
+    top: 85.71px;
+    z-index: 10;
+    max-width: 25%;
+    right: 0px;
+    left: 0px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .event_description {
+    right: 0px;
+    left: 0px;
+    top: 45px;
+    height: auto;
+    max-width: 30%;
+    margin: 0 auto;
+    border-right-width: 0px;
+  }
+
+  .date_image {
+    position: absolute;
+    max-width: 20%;
+    margin: 0 auto;
+    top: 280.25px;
+    opacity: 1;
+    z-index: 10;
+    right: 0px;
+    left: 0px;
+    height: auto;
+  }
+
+  .venue_image {
+    position: absolute;
+    height: auto;
+    top: 310px;
+    left: 0px;
+    right: 0px;
+    max-width: 25%;
+    margin: 0 auto;
+  }
+
+  .apply_button_rapper {
+    position: absolute;
+    height: auto;
+    top: 350px;
+    left: 0px;
+    max-width: 20%;
+    margin: 0 auto;
+    right: 0px;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .stocksun_logo {
+    position: absolute;
+    height: auto;
+    top: 5.44px;
+    left: 5px;
+    z-index: 10;
+    max-width: 15%;
+  }
+
+  .title {
+    position: absolute;
+    top: 55.71px;
+    z-index: 10;
+    max-width: 25%;
+    right: 0px;
+    left: 0px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .event_description {
+    right: 0px;
+    left: 0px;
+    top: 30px;
+    height: auto;
+    max-width: 25%;
+    margin: 0 auto;
+    border-right-width: 0px;
+  }
+
+  .date_image {
+    position: absolute;
+    max-width: 20%;
+    margin: 0 auto;
+    top: 160.25px;
+    opacity: 1;
+    z-index: 10;
+    right: 0px;
+    left: 0px;
+    height: auto;
+  }
+
+  .venue_image {
+    position: absolute;
+    height: auto;
+    top: 180px;
+    left: 0px;
+    right: 0px;
+    max-width: 25%;
+    margin: 0 auto;
+  }
+
+  .apply_button_rapper {
+    position: absolute;
+    height: auto;
+    top: 205px;
+    left: 0px;
+    max-width: 20%;
+    margin: 0 auto;
+    right: 0px;
+    z-index: 10;
+  }
+}
 
 @media screen and (max-width: 390px) {
-  
   .event_banner {
     width: 495px;
     height: 462px;
@@ -167,17 +527,17 @@ header .absolute {
     left: -25px;
     gap: 0px;
     opacity: 0px;
-    
+
   }
 
-.title {
-  width: 302px;
-height: 145.61px;
-top: 119px;
-left: 1px;
-gap: 0px;
-opacity: 0px;
-}
+  .title {
+    width: 302px;
+    height: 145.61px;
+    top: 119px;
+    left: 1px;
+    max-width: 77%;
+    margin: 0 auto;
+  }
 
   .stocksun_logo {
     width: 76.6px;
@@ -185,14 +545,17 @@ opacity: 0px;
     position: absolute;
     top: 13px;
     left: 12px;
+    max-width: 25%;
+    margin: 0 auto;
   }
 
   .event_description {
-    width: 268px;
     height: 15px;
     position: absolute;
-    top: 76.94px;
-    left: 1px;
+    top: 77.94px;
+    left: 0px;
+    max-width: 68%;
+    margin: 0 auto;
   }
 
   .date_image {
@@ -200,7 +563,9 @@ opacity: 0px;
     height: 36.48px;
     position: absolute;
     top: 326.39px;
-    left: -3.28px;
+    margin: 0 auto;
+    max-width: 54%;
+    left: -2.28px;
   }
 
   .venue_image {
@@ -209,21 +574,23 @@ opacity: 0px;
     position: absolute;
     top: 360px;
     left: -2px;
+    max-width: 57%;
+    margin: 0 auto;
   }
 
   .hide_dym {
     display: block;
     width: 257px;
-height: 24.15px;
-top: 280.68px;
-left: 66px;
-gap: 0px;
-opacity: 0px;
-position: absolute;
+    height: 24.15px;
+    top: 280.68px;
+    left: 66px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
   }
-/*画面最下部に配置するが、一時的に削除*/
-  .apply_button
-   {
+
+  /*画面最下部に配置するが、一時的に削除*/
+  .apply_button {
     display: none;
   }
 }
