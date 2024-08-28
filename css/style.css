@@ -108,6 +108,58 @@ header .absolute {
   z-index: 5;
 }
 
+.title_freelance_summit {
+  font-family: Roboto, sans-serif;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #81D7FC;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.subtitle_image {
+  width: 329px;
+  height: 18px;
+  position: relative;
+  /* top: 958px;*/
+  left: 550px; 
+  opacity: 1;
+  border-top: 1px solid transparent;
+}
+
+.event_summary {
+  width: 617px;
+  height: 90px;
+  top: 1036px;
+  left: 411px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Noto Sans JP;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.event_details {
+  width: 960px;
+  height: 139px;
+  top: 1166px;
+  left: 240px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Noto Sans JP;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  margin: 0 auto;
+}
+
 @media (min-width: 1441px) {
   .event_banner {
     max-width: 960px;

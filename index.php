@@ -39,9 +39,12 @@
     <main class="px-4 py-8">
         <!-- Freelance Summit Section -->
         <section class="text-center">
-            <h2 class="text-3xl font-bold">Freelance Summit</h2>
-            <p class="mt-4">「FREELANCE SUMMIT」は、StockSun株式会社が主催する日本最大級のフリーランスイベントです。</p>
-            <p class="mt-2">様々な業界のフリーランスが一堂に会し、情報交換やビジネスマッチングを行う場として、毎年多くの参加者が集まります。</p>
+        <h2 class="title_freelance_summit">Freelance Summit</h2>
+        <img src="image/下の文字 (1).png" alt="下の文字" class="subtitle_image">
+        <p class="event_summary">「FREELANCE SUMMIT」は、StockSun株式会社が主催する日本最大級のフリーランスイベントです。</p>
+ 
+        <!-- <p class="mt-4">「FREELANCE SUMMIT」は、StockSun株式会社が主催する日本最大級のフリーランスイベントです。</p> -->
+            <p class="event_details">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
         </section>
 
         <!-- Event Summary Section -->
