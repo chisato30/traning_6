@@ -7,7 +7,9 @@
 .event_banner {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  /* object-fit: cover; */
+  background-size: cover;
+
 }
 
 .stocksun_logo {
@@ -109,47 +111,57 @@ header .absolute {
 }
 
 .title_freelance_summit {
-  font-family: Roboto, sans-serif;
-  font-size: 60px;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 60px;
-  text-align: left;
-  color: #81D7FC;
-  display: inline-block;
+  top: 888px;
+  right: 0px;
+  left: 0px;
+  position: absolute;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
   margin-bottom: 60px;
 }
 
 .subtitle_image {
   width: 329px;
   height: 18px;
+  position: absolute;
+  top: 958px;
+  left: 550px;
+  right: 0px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin: 0 auto;
+
+
+  /* width: 329px;
+  height: 18px;
   position: relative;
   /* top: 958px;*/
-  left: 550px; 
+  /*left: 550px; 
   opacity: 1;
-  border-top: 1px solid transparent;
+  border-top: 1px solid transparent; */
 }
 
-.event_summary {
-  width: 617px;
-  height: 90px;
-  top: 1036px;
-  left: 411px;
+.event_summary_image {
+  width: 593px;
+  max-width: 83%;
+  height: 69px;
+  top: 1047px;
+  left: 428px;
   gap: 0px;
   opacity: 0px;
-  font-family: Noto Sans JP;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 45px;
-  text-align: center;
+  position: absolute;
   margin: 0 auto;
+
 }
 
 .event_details {
   width: 960px;
-  height: 139px;
-  top: 1166px;
-  left: 240px;
+  height: 140px;
+  position: absolute;
+  top: 1169px;
+  left: 239px;
   gap: 0px;
   opacity: 0px;
   font-family: Noto Sans JP;
@@ -160,15 +172,309 @@ header .absolute {
   margin: 0 auto;
 }
 
-@media (min-width: 1441px) {
+.event_summary_title {
+  width: 417px;
+  height: 59px;
+  top: 1473px;
+  left: 509px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  margin: 0 auto;
+
+}
+
+.event_summary_subtitle {
+  width: 269px;
+  height: 18px;
+  top: 1546px;
+  left: 579px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  margin: 0 auto;
+
+}
+
+.date_icon {
+  width: 170px;
+  height: 55px;
+  top: 1622px;
+  left: 240px;
+  gap: 0px;
+  border-radius: 27.5px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  margin: 0 auto;
+
+}
+
+.date_text {
+  width: 624px;
+  height: 47px;
+  top: 1628px;
+  left: 432px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  font-family: Noto Sans JP;
+  font-size: 20.5px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  margin: 0 auto;
+
+}
+
+.venue_text {
+  width: 617px;
+  height: 43px;
+  top: 1753px;
+  left: 431px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  font-family: Noto Sans JP;
+font-size: 22px;
+font-weight: 700;
+line-height: 45px;
+text-align: left;
+margin: 0 auto;
+
+}
+
+.venue_icon {
+  width: 170px;
+  height: 55px;
+  top: 1747px;
+  left: 240px;
+  gap: 0px;
+  border-radius: 27.5px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  margin: 0 auto;
+
+}
+
+.event_content_text{
+  font-family: Noto Sans JP;
+font-size: 22px;
+font-weight: 700;
+line-height: 34px;
+text-align: left;
+width: 617px;
+height: 73px;
+top: 1881px;
+left: 431px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+margin: 0 auto;
+
+}
+
+.event_content_icon{
+  width: 170px;
+height: 55px;
+top: 1872px;
+left: 240px;
+gap: 0px;
+border-radius: 27.5px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+margin: 0 auto;
+
+}
+
+.target_audience_text{
+  font-family: Noto Sans JP;
+font-size: 22px;
+font-weight: 700;
+line-height: 41px;
+text-align: left;
+width: 617px;
+height: 43px;
+top: 2030px;
+left: 431px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+margin: 0 auto;
+
+}
+
+.target_audience_icon{
+  width: 170px;
+height: 55px;
+top: 2024px;
+left: 240px;
+gap: 0px;
+border-radius: 27.5px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+margin: 0 auto;
+
+}
+
+.access_icon{
+  width: 170px;
+height: 55px;
+top: 2149px;
+left: 240px;
+gap: 0px;
+border-radius: 27.5px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+  margin: 0 auto;
+
+}
+
+.access_title{
+  width: 121px;
+height: 43px;
+top: 2151px;
+left: 431px;
+gap: 0px;
+opacity: 0px;
+font-family: Noto Sans JP;
+font-size: 22px;
+font-weight: 700;
+line-height: 41px;
+text-align: left;
+position: absolute;
+margin: 0 auto;
+
+
+}
+
+/* access_list{
+  font-family: Noto Sans JP;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+width: 374px;
+height: 131px;
+top: 2258px;
+left: 445px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}  */
+
+.access_details{
+  width: 375px;
+height: 63px;
+top: 2191px;
+left: 445px;
+gap: 0px;
+opacity: 0px;
+font-family: Noto Sans JP;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+position: absolute;
+margin: 0 auto;
+
+}
+
+.access_bullet{
+  width: 10px;
+  height: 10px;
+  /* top: 71px; */
+  left: -15px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  margin: 0 auto;
+
+}
+
+.access_map{
+  width: 380px;
+  height: 235px;
+  top: 2155px;
+  left: 820px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  margin: 0 auto;
+
+}
+
+.separator_line_fist{
+ width: 960px;
+  top: 1712px;
+  left: 224.5px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+.separator_line_2nd{
+  width: 960px;
+  top: 1837px;
+  left: 224.5px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute; 
+  height: auto;
+  display: block;
+    margin: 0 auto;
+
+}
+.separator_line_3rd{
+  width: 960px;
+  top: 1989px;
+  left: 224.5px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+.separator_line_4th{
+  width: 960px;
+  top: 2114px;
+  left: 224.5px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+  @media (min-width: 1441px) {
   .event_banner {
-    max-width: 960px;
+    /* max-width: 960px; */
     width: 100%;
     height: auto;
     margin: 0 auto;
+    background-size: cover
   }
-
-  .event_description {
+  .event_description,
+  .stocksun_logo,
+  .date_image,
+  .venue_image,
+  .apply_button_rapper,
+  .title
+  {
+  right: 0px;
+  left: 0px;
+}
+ /* .event_description {
     position: absolute;
     height: auto;
     top: 50px;
@@ -233,11 +539,11 @@ header .absolute {
     left: 0px;
     z-index: 10;
     margin: 0 auto;
-  }
+  }*/
 }
 
 /* 1920まで */
-@media (min-width: 1700px) {
+/* @media (min-width: 1700px) {
   .event_description {
     position: absolute;
     height: auto;
@@ -304,10 +610,10 @@ header .absolute {
     z-index: 10;
     margin: 0 auto;
   }
-}
+}*/
 
 /* 1700まで */
-@media (min-width: 1550px) {
+/*@media (min-width: 1550px) {
   .event_description {
     position: absolute;
     height: auto;
@@ -374,7 +680,7 @@ header .absolute {
     z-index: 10;
     margin: 0 auto;
   }
-}
+} */
 
 @media screen and (max-width: 1300px) {
   .stocksun_logo {
