@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <>
+
         <section class="text-center">
             <img src="image/Group 185.png" alt="Event Banner" class="main_background">
             <img src="image/Group 186.png" alt="Event Banner" class="main_background_sp">
