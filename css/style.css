@@ -109,7 +109,31 @@
 .event_content_text_sp,
 .event_banner_sp,
 .main_background_sp,
-.subtitle_image_sp {
+.subtitle_image_sp,
+.contents_section_sp,
+.pick_up_sp,
+.background_exhibitors_sp,
+.about_exhibitors_subtitle_sp,
+.example_exhinitors1,
+.example_exhinitors2,
+.example_exhinitors3,
+.example_exhinitors4,
+.example_exhinitors5,
+.example_exhinitors6,
+.example_exhinitors7,
+.example_exhinitors8,
+.new-text_sp,
+.new_text_2_sp,
+.new_text_3_sp,
+.new_text_4_sp,
+.new_text_5_sp,
+.new_text_6_sp,
+.new_text_7_sp,
+.new_text_8_sp,
+.new_text_9_sp,
+.new_text_10_sp,
+.new_text_11_sp
+ {
   display: none;
 }
 
@@ -206,7 +230,6 @@ header .absolute {
   top: 193%;
   left: 16.5%;
   gap: 0px;
-  border-radius: 27.5px 0px 0px 0px;
   opacity: 0px;
   position: absolute;
   margin: 0 auto;
@@ -248,7 +271,6 @@ header .absolute {
   top: 207.5%;
   left: 16.5%;
   gap: 0px;
-  border-radius: 27.5px 0px 0px 0px;
   opacity: 0px;
   position: absolute;
   margin: 0 auto;
@@ -276,7 +298,6 @@ header .absolute {
   top: 222.5%;
   left: 16.5%;
   gap: 0px;
-  border-radius: 27.5px 0px 0px 0px;
   opacity: 0px;
   position: absolute;
   margin: 0 auto;
@@ -303,7 +324,6 @@ header .absolute {
   top: 240.5%;
   left: 16.5%;
   gap: 0px;
-  border-radius: 27.5px 0px 0px 0px;
   opacity: 0px;
   position: absolute;
   margin: 0 auto;
@@ -315,7 +335,6 @@ header .absolute {
   top: 255.5%;
   left: 16.5%;
   gap: 0px;
-  border-radius: 27.5px 0px 0px 0px;
   opacity: 0px;
   position: absolute;
   margin: 0 auto;
@@ -846,8 +865,7 @@ margin: 0 auto;
   height: auto;
   top: 559.2%;
   left: 36.7%;
-  gap: 0px;
-  opacity: 0px;
+  z-index: 10;
   position: absolute;
 }
 
@@ -869,9 +887,8 @@ margin: 0 auto;
   height: auto;
   top: 548%;
   gap: 0px;
-  opacity: 0.5;
+  opacity: 1;
   position: absolute;
-  filter: brightness(0%);
 }
 
 /* .schedule-grid {
@@ -977,8 +994,8 @@ margin: 0 auto;
   height: 100.16px;
   top: 42px;
   left: 99.42px;
-    border-radius: 52.61px 0px 0px 0px;
-  opacity: 1;  /* 0から1に変更して表示されるようにしています */
+    /* border-radius: 52.61px 0px 0px 0px; */
+  opacity: 1; 
   z-index: 3;
   box-shadow: 0 0 0 1px white;
   border-radius: 59px;
@@ -990,7 +1007,7 @@ margin: 0 auto;
   height: 100.16px;
   top: 42px;
   left:   190.42px;
-      opacity: 1;  /* 0から1に変更して表示されるようにしています */
+      opacity: 1;  
   z-index: 3;
   box-shadow: 0 0 0 1px white;
   border-radius: 59px;
@@ -1132,6 +1149,15 @@ margin: 0 auto;
   position: relative;
 }
 
+.Group-230 {
+  width: 291.16px;
+  left: -1%;
+  top: 16%;
+  position: relative;
+  height: 115.16px;
+  z-index: 3;
+
+}
 
 .schedule-item .group_189 {
   position: absolute;
@@ -1142,14 +1168,14 @@ margin: 0 auto;
   opacity: 1;
   z-index: 4;
 }
-.schedule-item .group_190 {
-  position: absolute;
-  width: 108.44px;
-  height: 108.44px;
-  top: 36px;
-  left: 156px;
-  opacity: 2;
+.schedule-item .group_211 {
+  width: 242.16px;
+  left: 8%;
+  top: 13%;
+  position: relative;
+  height: 123.16px;
   z-index: 3;
+
 }
 
 .schedule-item .group_179 {
@@ -1185,7 +1211,6 @@ margin: 0 auto;
   height: 17.4%;
   top: 75.5%;
   left: 67%;
-  border-radius: 3%;
 }
 
 .schedule-item .new-text {
@@ -1963,6 +1988,142 @@ position: absolute;
 }
 }
 
+@media screen and (max-width: 1330px) {
+  .date_text {
+  top: 194.3%;
+  left: 31%;
+  font-size: 18.5px;
+}
+
+.date_icon {
+  width: 10.9%;
+  top: 193.3%;
+  left: 18.5%;
+}
+
+.separator_line_first {
+  top: 202.1%;
+  left: 16%;
+}
+
+.venue_icon {
+  width: 11%;
+  top: 206%;
+  left: 18.4%;
+}
+
+.venue_text {
+  width: 50%;
+  top: 206.3%;
+  left: 31%;
+  font-size: 20px;
+}
+
+.separator_line_2nd {
+  width: 66.4%;
+  top: 215.7%;
+  left: 16%;
+}
+
+.event_content_icon {
+    width: 11%;
+    top: 219.5%;
+    left: 18.5%;
+}
+
+.event_content_text {
+  font-size: 19.5px;
+  line-height: 34px;
+  width: 50%;
+  top: 218.5%;
+  left: 31%;
+}
+
+.separator_line_3rd {
+  width: 66.4%;
+  top: 229.2%;
+  left: 16%;
+}
+
+.target_audience_icon {
+  width: 11%;
+  top: 233.5%;
+  left: 18.5%;
+}
+.target_audience_text {
+  font-size: 18.7px;
+  width: 50%;
+  top: 234.5%;
+  left: 31%;
+}
+
+.separator_line_4th {
+  top: 243.2%;
+}
+
+.access_icon {
+  width: 11%;
+  top: 246.5%;
+  left: 18.5%;
+}
+
+.access_title {
+  width: 10%;
+  top: 247%;
+  left: 30%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.access_subtitle_jr {
+  width: 10%;
+  top: -140%;
+  left: 0%;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.access_list_jr {
+  top: -91%;
+  left: 0%;
+  font-size: 14px;
+}
+
+.access_bullet {
+  width: 2%;
+  top: -117%;
+  left: -12px;
+}
+
+
+.access_list_metro {
+    top: 5.5%;
+    width: 98%;
+    left: 0%;
+    font-size: 13.7px;
+}
+
+.access_bullet_metro {
+  width: 2%;
+  top: -20%;
+  left: -12px;
+}
+
+.access_subtitle_metro {
+  width: 31%;
+  top: -41.5%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 41px;
+}
+.access_map {
+  top: 248%;
+  left: 64%;
+}
+}
+
 @media screen and (max-width: 1300px) {
     .access_details {
         width: 375px;
@@ -2226,8 +2387,9 @@ position: absolute;
   top: 161px;
 }
 .schedule-item-mc {
-  width: 30%;
   height: 14%;
+  left: 68%;
+  width: 28.5%;
 }
 
 .kane_image {
@@ -2235,6 +2397,17 @@ position: absolute;
   height: 102px;
   top: 39px;
   left: 25px;
+}
+.background_exhibitors {
+  top: 469%;
+}
+
+.about_exhibitors_title {
+  top: 476.3%;
+}
+
+.about_exhibitors_subtitle {
+  top: 482.8%;
 }
 }
 
@@ -2248,13 +2421,8 @@ position: absolute;
     }
   .access_map {
       width: 25.5%;
-      height: auto;
-      top: 259%;
+      top: 249%;
       left: 63%;
-      gap: 0px;
-      opacity: 0px;
-      position: absolute;
-      margin: 0 auto;
   }
 }
 
@@ -2346,28 +2514,129 @@ position: absolute;
 
 @media screen and (max-width: 1160px) {
   .access_map {
-    width: 22.5%;
-    height: auto;
-    top: 260%;
-    left: 68%;
-    gap: 0px;
-    opacity: 0px;
-    position: absolute;
-    margin: 0 auto;
+    width: 40.5%;
+    top: 275%;
+    left: 30%;
 }
+
+.background_yellow {
+  top: 312%;
+}
+
+.event_contents_title {
+  top: 316%;
+}
+
+.event_contents {
+  top: 323.5%;
+}
+
+.company_area,
+.seminar_area  {
+top: 332%;
+}
+
+.contents_section_button {
+  top: 371.5%;
+}
+
+.pick_up {
+  top: 392%;
+  width: 15%;
+}
+.pick_up_companies {
+  top: 398.7%;
+  width: 15%;
+  left: 43%;
+}
+
+.left_line,
+.right_line  {
+  top: 389.8%;
+  height: 677px;
+}
+
+.oplan_company {
+  top: 403.5%;
+}
+
+.oplan_company_text {
+  top: 408.8%;
+  font-size: 15px;
+}
+
+.pebank_company {
+  top: 417.3%;
+}
+
+.oplan_company_url {
+  top: 414%;
+}
+
+.pebank_company_text {
+  top: 420.3%;
+  font-size: 14.8px;
+}
+
+.bcc_company {
+  top: 428%;
+}
+
+.bcc_company_text {
+  top: 432%;
+  font-size: 14.9px;
+  width: 40%;
+}
+
+.creava_company {
+  top: 436.2%;
+}
+
+.creava_company_url_logo {
+  top: 449%;
+}
+
+.creava_company_text {
+  top: 442.5%;
+}
+
+.creava_company_url_text {
+  left: 39.1%;
+  top: 449%;
+}
+
+.quartet_company_text {
+  top: 461.3%;
+  left: 30.3%;
+  font-size: 14.9px;
+}
+
+
 }
 
 @media screen and (max-width: 1125px) {
   .contents_section_button {
-    top: 357.5%;
+    top: 371.5%;
+}
+
+.event_contents_title {
+  left: 40%;
+}
+
+.event_contents {
+  left: 41.5%;
 }
 }
 
 @media screen and (max-width: 1100px) {
+  .event_contents_title {
+    top: 266%;
+  }
+  
   .event_description {
     width: 31.6%;
     top: 8.5%;
-}
+  }
 
 .title {
   top: 15%;
@@ -2441,7 +2710,6 @@ position: absolute;
 .venue_text {
   width: 40%;
   top: 163%;
-  font-size: 21px;
 }
 .event_content_icon {
   width: 11%;
@@ -2449,9 +2717,8 @@ position: absolute;
 }
 
 .event_content_text {
-  font-size: 20.5px;
   height: auto;
-  top: 174%;
+  top: 173.5%;
   width: 40%;
 }
 
@@ -2465,15 +2732,56 @@ position: absolute;
   top: 185%;
 }
 .target_audience_text {
-  font-size: 19.7px;
   width: 54%;
-
-  top: 185.6%;
+  top: 185.7%;
 }
 .separator_line_3rd {
   width: 66.4%;
   top: 183.3%;
 }
+
+.access_bullet {
+  width: 2%;
+  top: -56%;
+  left: -20px;
+}
+
+.access_subtitle_jr {
+  width: 10%;
+  top: -81%;
+  left: -2%;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 41px;
+}
+.access_list_jr {
+  top: -34%;
+  left: -3%;
+  font-size: 14px;
+}
+
+.access_bullet_metro {
+width: 2%;
+top: 34%;
+left: -21px;
+}
+
+.access_subtitle_metro {
+  width: 31%;
+  top: 10.5%;
+  font-size: 14px;
+  line-height: 41px;
+  left: -2%;
+}
+
+.access_list_metro {
+  top: 57.5%;
+  width: 98%;
+  left: -3%;
+  font-size: 13.7px;
+}
+
+
 
 .separator_line_4th {
   top: 192.5%;
@@ -2494,23 +2802,23 @@ position: absolute;
 }
 
 .access_map {
-  width: 24.5%;
-  top: 198%;
-  left: 68%;
+    width: 40.5%;
+    top: 222%;
+    left: 30%;
 }
+
 .background_yellow {
   top: 234%;
 }
 
-.event_contents_title {
+/* .event_contents_title {
   top: 237%;
   width: 19%;
   left: 39%;
-}
+} */
 .event_contents {
-  position: absolute;
-  top: 244.5%;
-  left: 39.6%;
+  top: 274.5%;
+  left: 41.6%;
   width: 17%;
 }
 
@@ -2657,7 +2965,7 @@ top: 308%;
 }
 
 .left_list_exhibitors {
-  width: 30%;
+  width: 35%;
   height: auto;
   top: 414.2%;
   left: 15.6%;
@@ -2673,7 +2981,7 @@ top: 308%;
 }
 
 .right_list_exhibitors {
-  width: 30%;
+  width: 35%;
   height: auto;
   top: 414.2%;
   left: 56%;
@@ -2689,7 +2997,7 @@ top: 308%;
 }
 
 .exhibitors_end {
-  width: 26%;
+  width: 29%;
   top: 464%;
   left: 63.4%;
   font-size: 17px;
@@ -2747,50 +3055,405 @@ top: 308%;
 
 .footer {
   top: 673%;
+}
 
+.background_yellow {
+  top: 258%;
+}
+
+/* .event_contents_title {
+  top: 261%;
+} */
+
+/* .event_contents {
+  top: 267.5%;
+} */
+
+.seminar_area, .company_area {
+  top: 279%;
+}
+
+.contents_section_button {
+  top: 315.5%;
+}
+
+.contents_section_button {
+  top: 315.5%;
+}
+
+.pick_up {
+  top: 334%;
+  left: 42%;
+  width: 13%;
+}
+
+.pick_up_companies {
+  top: 339.7%;
+  width: 14%;
+  left: 42%;
+}
+
+.left_line, .right_line {
+  top: 332%;
+  height: 556px;
+}
+
+.oplan_company {
+  top: 342.5%;
+  left: 44.2%;
+  width: 8%;
+}
+
+.oplan_company_text {
+  top: 345.8%;
+}
+
+.oplan_company_url {
+  top: 350.5%;
+}
+
+.pebank_company {
+  top: 354.4%;
+  left: 37.2%;
+  width: 18%;
+}
+
+.pebank_company_text {
+  top: 357.3%;
+}
+
+.bcc_company {
+  top: 363.6%;
+  left: 36%;
+  width: 22%;
+}
+
+.bcc_company_text {
+  top: 367%;
+}
+
+.creava_company_text {
+  top: 367.5%;
+}
+
+.creava_company_url_logo {
+  position: absolute;
+  top: 373.5%;
+}
+
+.creava_company_url_text {
+  top: 373%;
+}
+
+.creava_company {
+  top: 376%;
+  left: 43.6%;
+  width: 9%;
+}
+
+.bcc_company_text {
+  top: 381%;
+}
+
+.quartet_company {
+  top: 385%;
+  width: 6%;
+  left: 45.8%;
+}
+
+.quartet_company_text {
+  top: 389%;
+}
+}
 
 @media screen and (max-width: 1075px) {
   .access_details {
-    left: 338px;
     top: 1709px;
-    left: 38%;
+    left: 35%;
     width: 20%;
 }
 
- /* .bcc_company_text {
-  top: 358%;
-  left: 27%;
-  width: 46%;
-} 
-} */
-
-
-
-
-.access_map {
-  width: 24.5%;
+.access_title {
+  width: 40%;
   top: 195%;
-  left: 68%;
+  left: 40%;
+  font-size: 18px;
 }
 
+.access_subtitle_metro {
+  width: 31%;
+  top: 32.5%;
+  font-size: 14px;
+  line-height: 41px;
+  left: -2%;
 }
 
-@media screen and (max-width: 1050px) {
-  .access_details {
-    top: 1698px;
-    left: 338px;
+.access_bullet_metro {
+  width: 2%;
+  top: 63%;
+  left: -17px;
+}
+
+.access_bullet {
+  width: 2%;
+  top: -43%;
+  left: -17px;
+}
+
+.access_subtitle_jr {
+  width: 10%;
+  top: -68%;
+  left: -4%;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+
+.access_list_jr {
+  top: -20%;
+  left: -3%;
+  width: 90%;
+  font-size: 14px;
+}
+
+.access_list_metro {
+  top: 80.5%;
+  width: 204%;
+  left: -3%;
+  font-size: 13.7px;
 }
 }
 
 @media screen and (max-width: 1030px) {
   .access_map {
-    top: 194%;
+    top: 223%;
 }
 }
 
-@media screen and (max-width: 970px) {
-  .access_details {
-    left: 305px;
+@media screen and (max-width: 1000px) {
+  .schedule-item {
+    width: 231px;
+    height: 181.5px;
+}
+
+.schedule-item .group-218, .group-167,
+ .group-170, .group-166, .group-168,
+  .group-169, .inoue, .group-178, .group-223 {
+  position: absolute;
+  width: 34%;
+  height: 104.04px;
+  top: 7.5%;
+  left: 31%;
+  opacity: 1;
+  z-index: 2;
+}
+.time-text {
+  top: 6px;
+  font-size: 12px;
+  position: absolute;
+  width: 79px;
+  height: 22px;
+  left: -11px;
+  gap: 0px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+
+.group-219 {
+  width: 69px;
+  height: 21px;
+  top: 7px;
+  left: -3px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.schedule-grid {
+  top: 488%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 0.4fr));
+  column-gap: 0px;
+  row-gap: 16.5px;
+  width: 85%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 51.5%;
+}
+
+.schedule-item .new-text {
+  top: 126px;
+}
+
+.new-text_2 {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 222px;
+  height: 27px;
+  top: 124px;
+  left: 9px;
+}
+
+.new-text_3 {
+  font-size: 15px;
+  top: 125px;
+  position: absolute;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 223px;
+  height: 27px;
+  left: 9px;
+}
+
+.new_text_4 {
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 222px;
+  height: 22px;
+  left: 12px;
+  font-size: 15px;
+  top: 124px;
+}
+
+.new_text_5_1 {
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 262px;
+  height: 27px;
+  left: 12px;
+  font-size: 15px;
+        top: 124px;
+}
+
+.new_text_5_2 {
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 270px;
+  height: 27px;
+  left: 12px;
+  font-size: 15px;
+        top: 147px;
+}
+
+.new_text_6 {
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 158px;
+  height: 27px;
+  left: 45px;
+  font-size: 14.5px;
+  top: 125px;
+}
+
+.new_text_8 {
+line-height: 24px;
+letter-spacing: 0.08em;
+text-align: left;
+width: 225px;
+height: 27px;
+left: 12px;
+font-size: 15px;
+top: 123px;
+}
+
+.new_text_10 {
+  font-size: 14.5px;
+  top: 116px;
+  left: 7px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 235px;
+  height: 27px;
+}
+
+.new_text_11 {
+  font-size: 15px;
+  top: 120px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 208px;
+  height: 27px;
+  left: 18px;
+  opacity: 1;
+  color: #000;
+  z-index: 3;
+}
+
+.Group-230 {
+  width: 218.16px;
+  left: 0%;
+  top: 18%;
+  position: relative;
+  height: 95.16px;
+  z-index: 3;
+}
+
+.new_text_7 {
+  font-size: 15px;
+  top: 135px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    width: 212px;
+    height: 27px;
+    left: 12px;
+}
+
+.schedule-item .group_211 {
+  position: absolute;
+  width: 189.44px;
+  height: 101.44px;
+  top: 29px;
+  left: 19px;
+  opacity: 2;
+  z-index: 3;
+}
+
+.new_text_9 {
+  font-size: 15px;
+  top: 132px;
+  width: 208px;
+  height: 27px;
+  left: 12px;
+}
+.schedule-item-mc {
+  width: 231px;
+  height: 15%;
+    top: 75.5%;
+    left: 66%;
+}
+
+.kane_image {
+  width: 171.16px;
+  height: 84px;
+  top: 30px;
+  left: 29px;
+}
+}
+
+@media screen and (max-width: 975px) {
+  .event_contents_title {
+    left: 38%;
 }
 }
 
@@ -2842,52 +3505,85 @@ top: 308%;
 .access_details
 {
   left: 37%;
-  top: 1696px;
+  top: 1706;
 }
 
 .access_title
 {
-  left: 35%;
+  left: 46%;
 }
 
 .access_map {
-    width: 25.5%; 
-     top: 197%;
-  left: 68%;
-}
-
-.access_subtitle_jr {
-  font-size: 12px;
-}
-
-.access_list_jr {
-  font-size: 11px;
+     left: 34%;
 }
 
 .separator_line_first {
   top: 160.8%;
 }
 
-.access_subtitle_metro {
-  font-size: 11px;
+.contents_section_button {
+  top: 311.5%;
+}
 }
 
-.access_list_metro {
-  font-size: 10.7px;
-  width: 79%;
-}
-}
 @media screen and (max-width: 915px) {
   .date_text {
     width: 37%;
 }
+
+.access_list_metro {
+  width: 230%;
+}
 }
 
-@media screen and (max-width: 910px) {
-  .access_map {
-    top: 195%;
-    left: 66%;
+@media screen and (max-width: 900px) {
+  .schedule-grid {
+      top: 484%;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 0.4fr));
+      column-gap: 98px;
+      row-gap: 16.5px;
+      width: 85%;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      position: absolute;
+      left: 46.5%;
+  }
+
+  .schedule-item-mc {
+    width: 231px;
+    height: 15%;
+    top: 75.5%;
+    left: 74.5%;
 }
+}
+
+
+@media screen and (max-width: 890px) {
+  .event_contents_title {
+    left: 41%;
+    width: 18%;
+}
+
+.event_contents {
+  top: 266.5%;
+  left: 42.6%;
+  width: 15%;
+}
+
+.seminar_area, .company_area {
+  top: 274%;
+}
+
+.contents_section_button {
+  top: 304.5%;
+}
+
+.background_schedule {
+  height: 950px;
+}
+
 }
 
 @media screen and (max-width: 840px) {
@@ -2910,8 +3606,271 @@ top: 308%;
   left: 34%;
 }
 
+.date_text {
+  top: 152.7%;
+  font-size: 16.5px;
+}
+
+.separator_line_first {
+  top: 159.8%;
+}
+
+.venue_icon {
+  top: 162.5%;
+}
+
+.venue_text {
+  font-size: 18px;
+  top: 162%;
+}
+
+.separator_line_2nd {
+  top: 168.7%;
+}
+
+.event_content_icon {
+  top: 171%;
+}
+
+.event_content_text {
+  top: 171%;
+  font-size: 17.5px;
+  line-height: 27px;
+}
+
+.separator_line_3rd {
+  top: 179.3%;
+}
+
+.target_audience_icon {
+  top: 181.5%;
+}
+
+.target_audience_text {
+  top: 182%;
+  font-size: 16.7px;
+}
+
+.separator_line_4th {
+  top: 187.5%;
+}
+
+.access_icon {
+  top: 190%;
+}
+
+.access_title {
+  width: 40%;
+  top: 189.5%;
+  left: 40%;
+  font-size: 16px;
+  left: 43%;
+}
+
+.access_subtitle_jr {
+  width: 10%;
+  top: -150%;
+  left: -2%;
+  font-size: 15px;
+}
+
+.access_bullet {
+  width: 1.5%;
+  top: -124%;
+  left: -21px;
+}
+
+.access_list_jr {
+  top: -102%;
+  left: -2%;
+  width: 90%;
+  font-size: 13px;
+}
+
+.access_subtitle_metro {
+  width: 31%;
+  top: -54.5%;
+  font-size: 13px;
+  line-height: 41px;
+  left: -2%;
+}
+
+.access_bullet_metro {
+  width: 1.5%;
+  top: -31%;
+  left: -21px;
+}
+
+.access_list_metro {
+  width: 80%;
+  top: -8.5%;
+  left: -2%;
+  font-size: 11.7px;
+}
+
+.access_map {
+  top: 216%;
+}
+
 .access_list_metro {
   width: 77%;
+}
+
+.access_details {
+  width: 63%;
+}
+
+.background_yellow {
+  top: 246%;
+}
+
+.event_contents_title {
+  top: 251%;
+}
+
+.event_contents {
+  top: 256.5%;
+}
+
+.seminar_area, .company_area {
+  top: 263%;
+}
+
+.contents_section_button {
+  top: 291.5%;
+}
+
+.pick_up {
+  top: 304%;
+}
+
+.pick_up_companies {
+  top: 308.7%;
+}
+
+.oplan_company {
+  top: 311.5%;
+}
+
+.oplan_company_text {
+  font-size: 13px;
+  top: 314.8%;
+}
+
+.oplan_company_url {
+  top: 320%;
+  font-size: 15.8px;
+}
+
+.pebank_company {
+  top: 324.4%;
+  left: 39.2%;
+}
+
+.pebank_company_text {
+  top: 327.3%;
+  line-height: 21px;
+  font-size: 12.8px;
+}
+
+.bcc_company {
+  top: 333.6%;
+  left: 38%;
+}
+
+.creava_company_text {
+  top: 336.5%;
+  font-size: 13.8px;
+  line-height: 21px;
+}
+
+.creava_company_url_logo {
+  top: 341.5%;
+  }
+
+  .creava_company_url_text {
+    top: 341%;
+    font-size: 13.8px;
+  }
+
+  .creava_company {
+    top: 344%;
+  }
+
+  .bcc_company_text {
+    top: 348%;
+    font-size: 12.9px;
+    line-height: 21px;
+  }
+
+  .quartet_company {
+    top: 353%;
+  }
+
+  .quartet_company_text {
+    top: 357%;
+    font-size: 12.9px;
+    line-height: 21px;
+  }
+
+  .left_line, .right_line {
+    top: 302%;
+    height: 518px;
+  }
+
+  .about_exhibitors_title {
+    top: 368.3%;
+}
+
+.about_exhibitors_subtitle {
+  top: 372.8%;
+}
+
+.left_list_exhibitors,
+.right_list_exhibitors {
+  top: 376.2%;
+  font-size: 13px;
+  line-height: 34px;
+}
+
+.exhibitors_end {
+  width: 26%;
+  top: 413%;
+  left: 61.4%;
+  font-size: 13px;
+}
+
+.background_exhibitors {
+  top: 370%;
+}
+
+.background_schedule {
+  top: 419%;
+}
+
+.time_schedule_title {
+  top: 423.2%;
+}
+
+.time_schedule_subtitle {
+  top: 427.7%;
+}
+
+.schedule-grid {
+  top: 429%;
+  width: 85%;
+  max-width: 1000px;
+  left: 45.5%;
+}
+
+.side_button {
+  width: 5%;
+}
+}
+
+@media screen and (max-width: 825px) {
+  .schedule-item-mc {
+    left: 75%;
 }
 }
 
@@ -2960,7 +3919,6 @@ top: 308%;
 
 .date_text {
   top: 123.7%;
-  font-size: 18.5px;
   width: 38%;
 }
 
@@ -2973,7 +3931,6 @@ top: 308%;
 
 .venue_text {
   top: 131.7%;
-  font-size: 19px;
   width: 40%;
 
 }
@@ -2987,44 +3944,361 @@ top: 308%;
 }
 
 .event_content_text {
-  font-size: 18.5px;
   top: 140%;
   width: 40%;
-
 }
 
 .separator_line_3rd {
-  top: 150.3%;
+  top: 147.3%;
 }
 .target_audience_icon {
-  top: 152.5%;
+  top: 149.5%;
 }
 .target_audience_text {
-  font-size: 17.7px;
-  top: 152.6%;
+  top: 149.9%;
   width: 54%;
 }
 
 .separator_line_4th {
-  top: 158%;
+  top: 155%;
 }
 
 .access_icon {
-  top: 160.5%;
+  top: 157%;
 }
 
 .access_title {
-  top: 159.7%;
-  font-size: 17px;
+  top: 156.2%
 }
+
 .access_details {
-  left: 26%;
-  top: 1390px;
+  left: 36%;
+  top: 1428px;
 }
 .access_map {
-  width: 24.5%;
-  top: 161%;
-  left: 68%;
+  top: 182%;
+    left: 30%;
+}
+
+.background_yellow {
+  top: 209%;
+}
+
+.event_contents_title {
+  top: 213%;
+}
+
+.event_contents {
+  top: 218.5%;
+}
+
+.seminar_area, .company_area {
+  top: 224%;
+}
+
+.contents_section_button {
+  top: 250.5%;
+}
+
+.pick_up {
+  top: 264%;
+}
+
+.pick_up_companies {
+  top: 268.7%;
+  left: 41%;
+}
+
+.oplan_company {
+  top: 271.5%;
+}
+
+.oplan_company_text {
+  top: 274.8%;
+  line-height: 21px;
+}
+
+.oplan_company_url {
+  top: 279.5%;
+}
+
+.pebank_company {
+  top: 283.4%;
+}
+
+.pebank_company_text {
+  top: 286.3%;
+}
+
+.bcc_company {
+  top: 292.6%;
+}
+
+.creava_company_text {
+  top: 295.5%;
+}
+
+.creava_company_url_logo {
+  top: 300.5%;
+}
+
+.creava_company_url_text {
+  top: 300%;
+}
+
+.creava_company {
+  top: 303%;
+}
+
+.creava_company {
+  top: 303%;
+}
+
+.bcc_company_text {
+  top: 307%;
+}
+
+.quartet_company {
+  top: 312%;
+}
+
+.quartet_company_text {
+  top: 315%;
+  font-size: 12.9px;
+  line-height: 21px;
+  left: 30.5%;
+}
+
+.left_line, .right_line {
+  top: 261.5%;
+  height: 506px;
+}
+
+.about_exhibitors_title {
+  top: 325.3%;
+}
+
+.background_exhibitors {
+  top: 325%;
+}
+
+.about_exhibitors_subtitle {
+  top: 329.8%;
+}
+
+.left_list_exhibitors, .right_list_exhibitors {
+  top: 334.2%;
+}
+
+.exhibitors_end {
+  top: 375%;
+  left: 65.4%;
+  font-size: 14px;
+}
+
+.background_schedule {
+  top: 385%;
+}
+
+.time_schedule_title {
+  top: 388.2%;
+}
+
+.time_schedule_subtitle {
+  top: 393.7%;
+}
+
+.schedule-grid {
+  top: 396%;
+  width: 85%;
+  max-width: 1000px;
+  left: 44.5%;
+}
+
+.schedule-grid {
+  top: 396%;
+  width: 85%;
+  max-width: 1000px;
+  left: 47.5%;
+}
+
+.schedule-item .group-218, .group-167,
+ .group-170, .group-166, .group-168, .group-169,
+  .inoue, .group-178, .group-223 {
+  position: absolute;
+  width: 34%;
+  height: 78.04px;
+  top: 13.5%;
+  left: 31%;
+  opacity: 1;
+  z-index: 2;
+}
+
+.schedule-item .new-text {
+          font-size: 13.5px;
+          top: 103px;
+}
+
+.new-text_2 {
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 16px;
+  width: 177px;
+  height: 27px;
+  top: 104px;
+  left: 9px;
+}
+
+.new-text_3 {
+  font-size: 12px;
+  top: 103px;
+  line-height: 18px;
+  width: 193px;
+  height: 27px;
+  left: 9px;
+}
+
+.new_text_4 {
+  line-height: 14px;
+  width: 177px;
+  height: 22px;
+  left: 12px;
+  font-size: 11px;
+  top: 107px;
+}
+
+.new_text_5_1 {
+  line-height: 23px;
+  width: 262px;
+  height: 27px;
+  left: 12px;
+  font-size: 11px;
+  top: 101px;
+}
+
+.new_text_5_2 {
+  line-height: 23px;
+  width: 270px;
+  height: 27px;
+  left: 12px;
+  font-size: 11px;
+  top: 115px;
+}
+
+.new_text_6 {
+  line-height: 14px;
+  width: 113px;
+  height: 27px;
+  left: 43px;
+  font-size: 10.5px;
+  top: 105px;
+}
+
+.new_text_8 {
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 177px;
+  height: 27px;
+  left: 12px;
+  font-size: 11px;
+  top: 102px;
+}
+
+.new_text_10 {
+  font-size: 10.5px;
+  top: 105px;
+  left: 19px;
+  line-height: 14px;
+  width: 171px;
+  height: 27px;
+}
+
+.new_text_11 {
+  font-size: 11px;
+  top: 106px;
+  line-height: 13px;
+  width: 176px;
+  height: 27px;
+  left: 11px;
+}
+
+.schedule-item {
+  width: 194px;
+  height: 160.5px;
+}
+
+.Group-230 {
+  width: 167.16px;
+  left: 4%;
+  top: 18%;
+  height: 70.16px;
+}
+
+.new_text_7 {
+  font-size: 11px;
+  top: 105px;
+  width: 212px;
+  height: 27px;
+  left: 12px;
+}
+
+.schedule-item .group_211 {
+  width: 145.44px;
+  height: 71.44px;
+  top: 29px;
+  left: 23px;
+}
+
+.new_text_9 {
+  font-size: 10px;
+  top: 104px;
+  width: 139px;
+  height: 27px;
+  line-height: 16px;
+  left: 13px;
+}
+
+.kane_image {
+  width: 147.16px;
+  height: 77px;
+  top: 30px;
+  left: 29px;
+}
+
+.schedule-item-mc {
+  width: 195px;
+  height: 15%;
+  top: 75.5%;
+  left: 75.5%;
+}
+
+    .time-text {
+top: 6px;
+font-size: 10px;
+width: 79px;
+height: 22px;
+left: -16px;
+gap: 0px;
+opacity: 1;
+}
+
+.group-219 {
+  width: 57px;
+  height: 21px;
+  top: 7px;
+  left: -3px;
+  opacity: 1;
+  z-index: 2;
+}
+}
+
+@media screen and (max-width: 750px) {
+  .schedule-grid {
+    top: 396%;
+    width: 85%;
+    max-width: 1000px;
+    left: 46.5%;
 }
 }
 
@@ -3032,7 +4306,19 @@ top: 308%;
   .date_text {
     width: 41%;
 }
+
+.schedule-item-mc {
+  left: 76%;
 }
+}
+
+@media screen and (max-width: 710px) {
+  .schedule-grid {
+    top: 396%;
+    width: 85%;
+    max-width: 1000px;
+    left: 45.5%;
+}}
 
 @media screen and (max-width: 690px) {
   .event_description {
@@ -3137,15 +4423,15 @@ top: 308%;
 }
 
 .separator_line_3rd {
-  top: 136%;
+  top: 134.5%;
 }
 .target_audience_icon {
-  top: 138.5%;
+  top: 138%;
 }
 
 .target_audience_text {
   font-size: 14.7px;
-  top: 139%;
+  top: 138.2%;
   width: 54%;
 }
 
@@ -3160,11 +4446,11 @@ top: 308%;
 .access_title {
   top: 145%;
   font-size: 14px;
-  left: 31%;
+  left: 43%;
 }
 .access_details {
   left: 34%;
-  top: 1270px;
+  top: 1340px;
 }
 
 .access_subtitle_jr {
@@ -3183,9 +4469,167 @@ top: 308%;
 }
 
 .access_map {
-  width: 24.5%;
-  top: 146%;
-  left: 53%;
+  top: 173%;
+  left: 30%;
+}
+
+.background_yellow {
+  top: 198%;
+}
+
+.event_contents_title {
+  top: 202%;
+}
+
+.event_contents {
+  top: 206.5%;
+}
+
+.seminar_area, .company_area {
+  top: 212%;
+}
+
+.contents_section_button {
+  top: 235.5%;
+}
+
+.pick_up {
+  top: 246%;
+}
+
+.pick_up_companies {
+  top: 250%;
+}
+
+.oplan_company {
+  top: 252.5%;
+}
+
+.oplan_company_text {
+  top: 255.8%;
+}
+
+.oplan_company_url {
+  top: 262.5%;
+  font-size: 14.8px;
+}
+
+.pebank_company {
+  top: 266.4%;
+}
+
+.pebank_company_text {
+  top: 269.3%;
+  left: 29.3%;
+  width: 50%;
+}
+
+.bcc_company {
+  top: 275%;
+}
+
+.creava_company_text {
+  top: 277.5%;
+}
+
+.creava_company_url_logo {
+  top: 285%;
+}
+
+.creava_company_url_text {
+  top: 284.3%;
+}
+
+.creava_company {
+  top: 287%;
+}
+
+.bcc_company_text {
+  top: 291%;
+}
+
+.quartet_company {
+  top: 296%;
+}
+
+.quartet_company_text {
+  top: 299%;
+  left: 28.5%;
+}
+
+.left_line, .right_line {
+  top: 244%;
+  height: 525px;
+}
+
+
+.about_exhibitors_title {
+  top: 308.3%;
+}
+
+.about_exhibitors_subtitle {
+  top: 312%;
+}
+
+.background_exhibitors {
+  top: 310%;
+}
+
+.left_list_exhibitors, .right_list_exhibitors {
+  top: 315.2%;
+  font-size: 11px;
+  line-height: 26px;
+}
+
+.exhibitors_end {
+  width: 26%;
+  top: 346%;
+  left: 63.4%;
+  font-size: 12px;
+}
+
+.background_schedule {
+  top: 355%;
+}
+
+.time_schedule_title {
+  top: 358.2%;
+}
+
+.time_schedule_subtitle {
+  top: 362.7%;
+}
+
+.schedule-grid {
+  top: 365%;
+  width: 85%;
+  max-width: 1000px;
+  left: 45.5%;
+}
+
+.background_schedule {
+  height: 1227px;
+}
+
+.schedule-item-mc {
+  width: 196px;
+  height: 10.9%;
+  top: 83.4%;
+  left: 50.5%;
+}
+
+.kane_image {
+  width: 147.16px;
+  height: 77px;
+  top: 30px;
+  left: 24px;
+}
+
+.schedule-grid {
+  top: 366%;
+  left: 54.5%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 0.4fr));
 }
 }
 
@@ -3193,10 +4637,44 @@ top: 308%;
   .date_text {
     width: 37%;
 }
+
+.event_details {
+  left: 19.5%;
+  line-height: 42px;
+}
+
+.schedule-item-mc {
+  left: 51%;
+}
+
+.exhibitors_end {
+  width: 27%;
+  top: 343%;
+  left: 60.4%;
+  font-size: 12px;
+}
+}
+
+@media screen and (max-width: 622px) {
+  .exhibitors_end {
+    width: 34%;
+}
+.schedule-grid {
+  left: 53.5%;
+}
+
+.schedule-item-mc {
+  left: 51.5%;
+}
+  }
+
+@media screen and (max-width: 610px) {
+.contents_section_button {
+  top: 232.5%;
+}
 }
 
 @media screen and (max-width: 594px) {
-
 .date_text {
   width: 40%;
 }
@@ -3298,20 +4776,23 @@ top: 308%;
 }
 
 .access_title {
-  top: 116.5%;
-  font-size: 14px;
-  left: 32%;
+    top: 116.5%;
 }
 
 .access_details {
-  left: 35%;
-  top: 1018px;
+  left: 33%;
+  top: 1097px;
   width: 295px;
 }
 
+.access_list_metro {
+  font-size: 10.7px;
+  width: 99%;
+}
+
 .access_map {
-  top: 118%;
-  left: 59%;
+  top: 144%;
+  left: 30%;
 }
 
 .access_icon {
@@ -3322,6 +4803,175 @@ top: 308%;
   width: 40%;
   top: 83.7%;
 }
+
+.background_yellow {
+  top: 166%;
+}
+
+.event_contents_title {
+  top: 169%;
+}
+
+.event_contents {
+  top: 172.5%;
+}
+
+.seminar_area, .company_area {
+  top: 176%;
+}
+
+.contents_section_button {
+  top: 196.5%;
+}
+
+.pick_up {
+  top: 208%;
+}
+
+.pick_up_companies {
+  top: 212%;
+}
+
+.oplan_company {
+  top: 214.5%;
+}
+
+.oplan_company_text {
+  line-height: 21px;
+  font-size: 11px;
+  top: 216.8%;
+}
+
+.oplan_company_url {
+  top: 223.5%;
+  font-size: 12.8px;
+}
+
+.pebank_company {
+  top: 227.4%;
+}
+
+.pebank_company_text {
+  top: 229.3%;
+  left: 25.3%;
+  font-size: 10.8px;
+}
+
+.bcc_company {
+  top: 236%;
+}
+
+    .creava_company_text {
+        top: 238.3%;
+        font-size: 11.8px;
+        left: 23.5%;
+        width: 56%;
+        line-height: 16px;
+    }
+
+    .creava_company_url_logo {
+      top: 244%;
+  }
+
+  /* .creava_company_url_logo {
+    top: 243%;
+    left: 24%;
+    } */
+
+    .creava_company_url_logo {
+      top: 242%;
+      left: 25%;
+      font-size: 11.8px;
+  }
+
+  .creava_company_url_text {
+    top: 241.3%;
+    font-size: 11.8px;
+  }
+
+  .creava_company {
+    top: 244%;
+}
+
+.bcc_company_text {
+  font-size: 10.9px;
+  left: 26.5%;
+  line-height: 18px;
+  top: 246.5%;
+}
+
+.quartet_company {
+  top: 251%;
+}
+
+.quartet_company_text {
+  top: 254%;
+  left: 24%;
+  width: 57%;
+  line-height: 17px;
+  font-size: 10.9px;
+}
+
+.left_line, .right_line {
+  top: 205.4%;
+  height: 464px;
+  width: 7%;
+}
+
+.about_exhibitors_title {
+  top: 263.3%;
+}
+
+.about_exhibitors_subtitle {
+  top: 267%;
+}
+
+.background_exhibitors {
+  top: 264%;
+}
+
+.left_list_exhibitors, .right_list_exhibitors {
+  top: 269.2%;
+  font-size: 9px;
+  line-height: 23px;
+}
+
+.exhibitors_end {
+  width: 29%;
+  top: 293%;
+  left: 59.4%;
+  font-size: 10px;
+}
+
+.background_schedule {
+  top: 301%;
+}
+
+.time_schedule_title {
+  top: 305.2%;
+}
+
+.time_schedule_subtitle {
+  top: 309.7%;
+}
+
+.schedule-grid {
+  left: 52.5%;
+  top: 312%;
+}
+
+.schedule-item-mc {
+  left: 52.5%;
+}
+}
+
+@media screen and (max-width: 570px) {
+  .exhibitors_end {
+      width: 29%;
+      top: 296%;
+      left: 59.4%;
+      font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -3338,9 +4988,25 @@ top: 308%;
   font-size: 14.5px;
   width: 40%;
 }
+
+.schedule-item-mc {
+  left: 53.5%;
+}
+
 .target_audience_text {
   font-size: 12.7px;
   width: 49%;
+}
+}
+
+@media screen and (max-width: 530px) {
+  .schedule-grid {
+    left: 50.5%;
+    top: 312%;
+}
+
+.schedule-item-mc {
+  left: 54%;
 }
 }
 
@@ -3363,6 +5029,76 @@ top: 308%;
   font-size: 11.7px;
   width: 52%;
 }
+}
+
+@media screen and (max-width: 500px) {
+  .contents_section_button {
+    top: 192.5%;
+}
+
+.schedule-grid {
+  left: 48.5%;
+}
+
+
+
+.schedule-item {
+  width: 177px;
+  height: 146.5px;
+}
+
+.new-text_3 {
+  font-size: 11px;
+  line-height: 18px;
+  width: 177px;
+  left: 9px;
+}
+
+.new_text_4 {
+  left: 6px;
+}
+
+.Group-230 {
+  left: 1%;
+}
+
+.new_text_8 {
+  left: 8px;
+}
+
+.new_text_7 {
+  font-size: 11px;
+  top: 105px;
+  width: 157px;
+  height: 27px;
+  left: 12px;
+  line-height: 15px;
+}
+
+.new_text_10 {
+  left: 9px;
+}
+
+.new_text_11 {
+  width: 153px;
+}
+
+.schedule-item-mc {
+  width: 178px;
+  left: 55%;
+}
+
+.kane_image {
+  width: 129.16px;
+  height: 68px;
+  top: 30px;
+  left: 25px;
+}
+
+.background_schedule {
+  height: 1133px;
+}
+
 }
 
 @media screen and (max-width: 478px) {
@@ -3469,25 +5205,184 @@ top: 308%;
 }
 
 .access_title {
-  top: 97%;
+  top: 97.1%;
   font-size: 12px;
-  left: 32%;
+  left: 43%;
 }
 
 .access_details {
-  left: 37%;
-  top: 845px;
+  left: 32%;
+  top: 930px;
 }
+
 .access_map {
-  top: 98%;
-  left: 62%;
+  top: 124%;
+  left: 30%;
+}
+
+.background_yellow {
+  top: 141%;
+}
+
+.event_contents_title {
+  top: 143%;
+}
+
+.event_contents {
+  top: 146%;
+}
+
+.seminar_area, .company_area {
+  top: 149%;
+}
+
+.contents_section_button {
+  top: 165.5%;
+}
+
+.left_line, .right_line {
+  top: 173%;
+  height: 349px;
+}
+
+.pick_up {
+  top: 175%;
+}
+
+.pick_up_companies {
+  top: 178%;
+}
+.oplan_company {
+  top: 180%;
+}
+
+.oplan_company_text {
+  line-height: 15px;
+  font-size: 8px;
+  top: 181.8%;
+}
+
+.oplan_company_url {
+  top: 185%;
+  font-size: 10.8px;
+}
+
+.pebank_company {
+  top: 188%;
+}
+
+.pebank_company_text {
+  top: 190%;
+  left: 25.3%;
+  font-size: 8.8px;
+  line-height: 14px;
+}
+
+.bcc_company {
+  top: 194%;
+}
+
+.creava_company_text {
+  top: 196%;
+  font-size: 9.8px;
+  left: 21.5%;
+  width: 60%;
+  line-height: 15px;
+}
+
+.creava_company_url_logo {
+  top: 199.5%;
+  left: 22%;
+}
+
+.creava_company_url_text {
+  top: 199.1%;
+  font-size: 8.8px;
+  left: 29%;
+}
+
+.creava_company {
+  top: 201%;
+}
+
+.bcc_company_text {
+  font-size: 9.9px;
+  left: 24.5%;
+  width: 51%;
+  line-height: 14px;
+  top: 203.5%;
+}
+
+.quartet_company {
+  top: 207%;
+}
+
+.quartet_company_text {
+top: 209%;
+left: 24%;
+width: 59%;
+line-height: 14px;
+font-size: 8.9px;
+}
+
+.about_exhibitors_title {
+  top: 216.3%;
+}
+
+.about_exhibitors_subtitle {
+  top: 219%;
+}
+
+.left_list_exhibitors, .right_list_exhibitors {
+  top: 221.2%;
+  font-size: 8px;
+  line-height: 19px;
+}
+
+.background_exhibitors {
+  top: 218%;
+}
+
+.exhibitors_end {
+  width: 29%;
+  top: 243%;
+  left: 62.4%;
+  font-size: 8px;
+}
+
+.background_schedule {
+  top: 249%;
+}
+
+.time_schedule_title {
+  top: 252.2%;
+}
+
+.time_schedule_subtitle {
+  top: 255.7%;
+}
+
+.schedule-grid {
+  top: 257%;
+}
+
+.schedule-item-mc {
+  width: 178px;
+  left: 55.5%;
 }
 }
 
 @media screen and (max-width: 450px) {
   .access_details {
-      width: 250px;
-  }
+    left: 27.5%;
+    top: 935px;
+    width: 291px;
+}
+
+.schedule-item-mc {
+  width: 177px;
+  left: 56.5%;
+}
 }
 
 @media screen and (max-width: 445px) {
@@ -3495,6 +5390,15 @@ top: 308%;
     width: 50%;
     top: 72.7%;
   }
+
+  .schedule-grid {
+    left: 46.5%;
+}
+
+.schedule-item-mc {
+  width: 178px;
+  left: 56.5%;
+}
 }
 
 @media screen and (max-width: 430px) {
@@ -3513,16 +5417,6 @@ top: 308%;
       left: 28%;
   }
 
-  .access_title {
-    top: 116%;
-    font-size: 12px;
-    left: 26%;
-  }
-
-  .access_details {
-    left: 31%;
-    top: 1005px;
-}
 .target_audience_text {
   font-size: 10.7px;
 }
@@ -3534,7 +5428,82 @@ top: 308%;
   top: 78%;
     font-size: 12px;
 }
+
+.schedule-grid {
+  left: 45.5%;
 }
+
+.schedule-item {
+  width: 166px;
+  height: 143.5px;
+}
+
+.schedule-item .new-text {
+  font-size: 12.5px;
+  top: 103px;
+  left: 13px;
+}
+
+.new-text_2 {
+  font-size: 9px;
+  font-weight: 900;
+  line-height: 16px;
+  width: 164px;
+  height: 27px;
+  top: 104px;
+  left: 9px;
+}
+
+.new-text_3 {
+  width: 153px;
+}
+
+.new_text_4 {
+  line-height: 14px;
+  width: 159px;
+  height: 22px;
+  left: 12px;
+  font-size: 10px;
+  top: 107px;
+}
+
+.new_text_6 {
+  left: 30px;
+}
+
+.Group-230 {
+  width: 151.16px;
+  left: 4%;
+  top: 25%;
+  height: 62.16px;
+}
+
+.new_text_8 {
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  width: 165px;
+}
+
+.schedule-item .group_211 {
+  left: 8px;
+}
+
+.new_text_10 {
+  left: 5px;
+}
+
+.schedule-item-mc {
+  width: 167px;
+  left: 57.5%;
+}
+
+.schedule-grid {
+  left: 46.5%;
+}
+}
+
+
 
 @media screen and (max-width: 410px) {
   .date_text {
@@ -3546,6 +5515,14 @@ top: 308%;
   .target_audience_text {
       font-size: 9.7px;
   }
+
+  .contents_section_button {
+    top: 162.5%;
+}
+
+.schedule-grid {
+  left: 44.5%;
+}
 }
 
 @media screen and (max-width: 390px) {
@@ -3631,7 +5608,37 @@ display: none;
      .event_content_text,
      .event_banner,
      .main_background,
-     .event_summary_subtitle
+     .event_summary_subtitle,
+     .background_yellow,
+     .event_contents_title,
+     .event_contents,
+     .company_area,
+     .seminar_area,
+     .contents_section_button,
+     .apply_button ,
+     .left_line,
+     .right_line,
+     .pick_up,
+     .pick_up_companies,
+     .oplan_company,
+     .oplan_company_text,
+     .creava_company_url_text,
+     .creava_company_url_logo,
+     .creava_company_text,
+     .creava_company,
+     .bcc_company_text ,
+     .bcc_company,
+     .quartet_company_text,
+     .quartet_company,
+     .pebank_company_text,
+     .pebank_company,
+     .oplan_company_url,
+     .side_button,
+     .background_exhibitors,
+     .left_list_exhibitors, 
+     .right_list_exhibitors,
+     .about_exhibitors_subtitle,
+     .time_schedule_subtitle 
      {
   display: none;
   }
@@ -3689,17 +5696,23 @@ display: none;
   .access_subtitle_jr {
     width: 10%;
     height: auto;
-    top: 415%;
-    left: 11%;
+    top: 526%;
+    left: 14%;
     font-size: 12px;
   }
 
+  .access_bullet {
+    width: 2%;
+    top: 660%;
+    left: 29px;
+}
+
   .access_list_jr {
     font-size: 14px;
-    width: 57%;
+    width: 48%;
     height: auto;
-    top: 463%;
-    left: 10%;
+    top: 576%;
+    left: 14%;
   }
 
   .target_audience_text {
@@ -3711,7 +5724,7 @@ display: none;
   }
 
   .access_title {
-    top: 147.5%;
+    top: 147.7%;
         font-size: 14px;
     left: 36%;
 }
@@ -3719,25 +5732,25 @@ display: none;
   .access_bullet_metro {
     width: 3%;
     height: auto;
-    top: 551%;
-    left: 14px;
+    top: 547%;
+    left: 27px;
   }
 
   .access_subtitle_metro {
     font-size: 13px;
     width: 34%;
-    top: 520.5%;
+    top: 634.5%;
     left: 11%;
     height: auto;
-    left: 11%;
+    left: 13%;
   }
 
   .access_list_metro {
-    font-size: 13.5px;
-    width: 89%;
+    font-size: 13.7px;
+    width: 78%;
     height: auto;
-    top: 570.5%;
-    left: 11%;
+    top: 682.5%;
+    left: 14%;
   }
 
   .venue_icon_sp,
@@ -3775,6 +5788,10 @@ display: none;
   text-align: left;
   margin: 0 auto;
   font-weight: 700;
+}
+
+.access_details {
+  width: 281px;
 }
 
 .access_map_sp{
@@ -3850,10 +5867,181 @@ display: none;
       left: 25.5%;
     }
 
-  /*画面最下部に配置するが、一時的に削除*/
-  .apply_button {
-    display: none;
+    .contents_section_sp {
+      display: flex;
+      position: absolute;
+      width: 390px;
+      height: 778px;
+      top: 1785px;
+      gap: 0px;
+      opacity: 0px;
+    }
+
+    .pick_up_sp {
+      display: flex;
+      position: absolute;
+      width: 375px;
+height: 655px;
+top: -3337px;
+left: 322px;
+gap: 0px;
+opacity: 0px;
+    }
+      
+    .background_exhibitors_sp {
+        width: 100%;
+        height: 329.97px;
+        top: 307.6%;
+        gap: 0px;
+        opacity: 0px;
+        display: flex;
+        position: absolute;
+    
+    }
+
+    .about_exhibitors_title {
+      top: 309.6%;
+      width: 48%;
+      left: 25.5%;
   }
+
+  .about_exhibitors_subtitle_sp {
+    width: 21%;
+    height: auto;
+    top: 314%;
+    left: 40%;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    position: absolute;
 }
+
+.example_exhinitors1 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 319.6%;
+  left: 14%;
+  gap: 0px;
 }
+
+.example_exhinitors2 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 326.9%;
+  left: 14%;
+  gap: 0px;
 }
+
+.example_exhinitors3 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 333.9%;
+  left: 14%;
+  gap: 0px;
+}
+.example_exhinitors4 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 341%;
+  left: 14%;
+  gap: 0px;
+}
+
+.example_exhinitors5 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 319.6%;
+  left: 53%;
+  gap: 0px;
+}
+
+.example_exhinitors6 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 326.9%;
+  left: 53%;
+  gap: 0px;
+}
+
+.example_exhinitors7 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 333.9%;
+  left: 53%;
+  gap: 0px;
+}
+
+.example_exhinitors8 {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  top: 341%;
+  left: 53%;
+  gap: 0px;
+}
+
+.time_schedule_title {
+  top: 355.9%;
+  width: 43%;
+  left: 28.7%;
+}
+
+.schedule-grid {
+  grid-template-columns: repeat(1, minmax(0, 0.4fr));
+  top: 361.7%;
+  row-gap: 9.5px;
+}
+
+.schedule-item {
+  width: 166px;
+  height: 104.5px;
+  width: 355px;
+  height: 104.5px;
+  left: -5%;
+}
+
+.schedule-item .group-218, .group-167,
+ .group-170, .group-166, .group-168,
+  .group-169, .inoue, .group-178, .group-223 {
+  position: absolute;
+  width: 24%;
+  height: 91.04px;
+  top: 18.5%;
+  left: 71.5%;
+  opacity: 1;
+  z-index: 2;
+}
+
+.time-text {
+  top: 20px;
+  font-size: 13px;
+  width: 86px;
+  height: 22px;
+  left: -12px;
+  gap: 0px;
+  opacity: 1;
+}
+
+.group-219 {
+  width: 80px;
+  height: 26px;
+  top: 19px;
+  left: -3px;
+  opacity: 1;
+  z-index: 2;
+}
+
+  /*画面最下部に配置するが、一時的に削除*/
+  /* .apply_button {
+    display: none;
+  } */
+}
+
+
