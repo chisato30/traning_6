@@ -49,7 +49,6 @@
             </p>
         </section>
 
-        <!-- Event Summary Section -->
         <section class="mt-12">
             <img src="image/Event Summary.png" alt="Event Summary" class="event_summary_title">
             <div class="mt-8 space-y-4">
@@ -131,10 +130,11 @@
                         </div>
                     </div>
                 </div>
-        </section>
+        </section> 
 
         <div class="contents_section">
             <img src="image/bg.png" alt="黄色の背景" class="background_yellow">
+            <img src="image/03.png" alt="contents_section" class="contents_section_sp">
             <img src="image/Contents.png" alt="イベントコンテンツ" class="event_contents_title">
             <img src="image/event_content.png" alt="イベント内容" class="event_contents">
             <div class="w-1/2">
@@ -149,6 +149,7 @@
         </div>
 
         <section class="mt-12">
+        <!-- <img src="image/pickup_sp.png" alt="ピックアップ" class="pick_up_sp"> -->
             <img src="image/Pick Up.png" alt="ピックアップ" class="pick_up">
             <img src="image/featured companies.png" alt="注目の企業" class="pick_up_companies">
             <img src="image/image 15.png" alt="OPLAN" class="oplan_company">
@@ -170,10 +171,19 @@
 
         <section class="mt-12">
             <img src="image/Group 192@2x.png" alt="background_exhibitors" class="background_exhibitors">
+            <img src="image/Group 193.png" alt="background_exhibitors_sp" class="background_exhibitors_sp">
             <img src="image/About Exhibitors.png" alt="about_exhibitors" class="about_exhibitors_title">
             <img src="image/Exhibiting companies.png" alt="about_exhibitors_subtitle" class="about_exhibitors_subtitle">
+            <img src="image/出展企業一覧.png" alt="about_exhibitors_subtitle" class="about_exhibitors_subtitle_sp">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors1" class="example_exhinitors1">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors2" class="example_exhinitors2">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors3" class="example_exhinitors3">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors4" class="example_exhinitors4">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors5" class="example_exhinitors5">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors6" class="example_exhinitors6">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors7" class="example_exhinitors7">
+            <img src="image/Rectangle 119.png" alt="example_exhinitors8" class="example_exhinitors8">
 
-            <!-- <p class="mt-4 text-center">出展企業の詳細情報をご覧ください。</p> -->
             <ul class="left_list_exhibitors">
                 <li>オープラン株式会社</li>
                 <li>株式会社ビズリンク</li>
@@ -198,6 +208,7 @@
             </ul>
             <p class="exhibitors_end">（順不同、一部企業のみ掲載）</p>
         </section>
+
         <section class="time_schedule">
             <img src="image/Time Schedule.png" alt="スケジュール" class="time_schedule_title">
             <img src="image/time_schedule.png" alt="スケジュールサブタイトル" class="time_schedule_subtitle">
@@ -208,107 +219,109 @@
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">10:00~</span>
                     <img src="image/Group 218.png" alt="Group 218" class="group-218">
-                    <p>Item 1</p>
                     <span class="new-text">今、SNSを始めるなら</span>
+                    <span class="new-text_sp">「今、SNSを始めるなら」</span>
+
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">11:00~</span>
                     <img src="image/Group 167.png" alt="Group 167" class="group-167">
-                    <p>Item 2</p>
                     <span class="new-text_2">会社員で出世する人と独立して成功する人の適正について</span>
+                    <span class="new-text_2_sp">「会社員で出世する人と独立して成功する人の適正について」</span>
 
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">11:40~</span>
                     <img src="image/Group 168.png" alt="Group 168" class="group-168">
-                    <p>Item 3</p>
                     <span class="new-text_3">営業出身のフリーランスの生存戦略</span>
-
+                    <span class="new-text_3_sp">「営業出身のフリーランスの生存戦略」</span>
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">12:20~</span>
                     <img src="image/Group 169.png" alt="Group 169" class="group-169">
-                    <p>Item 4</p>
                     <span class="new_text_4">無数のフリーランスに発注してわかった優秀な人の特徴</span>
+                    <span class="new_text_4_sp">「無数のフリーランスに発注してわかった優秀な人の特徴」</span>
 
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">13:00~</span>
                     <img src="image/Group 166 .png" alt="Group 166" class="group-166">
-                    <p>Item 5</p>
                     <span class="new_text_5_1">現役上場企業社長が語る</span>
                     <span class="new_text_5_2">最新WEBマーケティング論</span>
+                    <span class="new_text_5_1_sp">「現役上場企業社長が語る」</span>
+                    <span class="new_text_5_2_sp">「最新WEBマーケティング論」</span>
 
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">13:30~</span>
                     <img src="image/Group 170.png" alt="Group 170" class="group-170">
-                    <p>Item 6</p>
                     <span class="new_text_6">月収300万円までのロードマップ</span>
-
+                    <span class="new_text_6_sp">「月収300万円までのロードマップ」</span>
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">14:20~</span>
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <p>Item 7</p>
                     <span class="new_text_7">SNSを伸ばした先に見える世界</span>
-                    <img src="image/Mask group.png" alt="Mask group" class="mask-group">
-                    <img src="image/Mask group (1).png" alt="Mask group 1" class="mask-group-1">
+                        <span class="new_text_7_sp">「SNSを伸ばした先に見える世界」</span>
+                   
+                    <!-- <img src="image/Mask group (2).png" alt="Mask group 2" class="mask-group-2"> -->
+                    <!-- <img src="image/Mask group (1).png" alt="Mask group 1" class="mask-group-1">
                     <img src="image/Mask group (2).png" alt="Mask group 2" class="mask-group-2">
                     <img src="image/Rectangle 127.png" alt="Rectangle 127" class="rectangle_127">
                     <span class="speaker_name_1">やまもと りゅうけん</span>
                     <span class="speaker_name_2">迫佑樹</span>
                     <span class="speaker_name_3">青笹寛史</span>
                     <img src="image/Group 176.png" alt="Group 176" class="group_176">
-                    <img src="image/Group 176.png" alt="Group 177" class="group_177">
+                    <img src="image/Group 176.png" alt="Group 177" class="group_177"> -->
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">15:00~</span>
                     <img src="image/inoue.png" alt="井上さん" class="inoue">
-                    <p>Item 8</p>
                     <span class="new_text_8">元サイバーエージェント局長による広告業界の未来予想図</span>
+                    <span class="new_text_8_sp">「元サイバーエージェント局長による広告業界の未来予想図」</span>
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">15:40~</span>
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <p>Item 9</p>
                     <span class="new_text_9">エンジニアとして独立し、年収3000万円を超える方法</span>
-                    <img src="image/Group 190.png" alt="Group 190" class="group_190">
+                    <img src="image/Group 211.png" alt="Group 211" class="group_211">
+                    <span class="new_text_9_sp">「エンジニアとして独立し、年収3000万円を超える方法」</span>
+                    <!-- <img src="image/Group 190.png" alt="Group 190" class="group_190">
                     <img src="image/Group 189.png" alt="Group 189" class="group_189">
                     <img src="image/Group 179.png" alt="Group 188" class="group_179">
-                    <img src="image/Group 176.png" alt="Group 175" class="group_175">
+                    <img src="image/Group 176.png" alt="Group 175" class="group_175"> -->
 
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">16:20~</span>
                     <img src="image/Group 178 .png" alt="Group 178" class="group-178">
-                    <p>Item 10</p>
                     <span class="new_text_10">累計300人以上、起業家を見て感じた成功法則</span>
+                    <span class="new_text_10_sp">「累計300人以上、起業家を見て感じた成功法則」</span>
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">17:00~</span>
                     <img src="image/Group 223.png" alt="Group 223" class="group-223">
-                    <p>Item 11</p>
                     <span class="new_text_11">フリーランスにおすすめのM＆Aトレンドを紹介</span>
+                    <span class="new_text_11_sp">「フリーランスにおすすめのM＆Aトレンドを紹介」</span>
                 </div>
                 <div class="schedule-item-mc">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
                     <span class="time-text">MC</span>
-                    <p>Item 12</p>
                     <img src="image/kane.png" alt="Kane" class="kane_image">
                 </div>
             </div>
         </section>
+                <!-- 
         <section class="mt-12 faq-section">
             <img src="image/Polygon 5.png" alt="Background" class="faq_background">
             <img src="image/FAQ.png" alt="FAQ" class="faq_title">
@@ -352,4 +365,4 @@
         </div>
 </body>
 
-</html>
+</html> -->
