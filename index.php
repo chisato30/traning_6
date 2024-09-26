@@ -7,7 +7,6 @@
     <title>Freelance Summit</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/style.css">
-
 </head>
 
 <body>
@@ -34,7 +33,7 @@
         </div>
     </header>
 
-
+    <main>
         <section class="text-center">
             <img src="image/Group 185.png" alt="Event Banner" class="main_background">
             <img src="image/Group 186.png" alt="Event Banner" class="main_background_sp">
@@ -130,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-        </section> 
+        </section>
 
         <div class="contents_section">
             <img src="image/bg.png" alt="黄色の背景" class="background_yellow">
@@ -149,7 +148,6 @@
         </div>
 
         <section class="mt-12">
-        <!-- <img src="image/pickup_sp.png" alt="ピックアップ" class="pick_up_sp"> -->
             <img src="image/Pick Up.png" alt="ピックアップ" class="pick_up">
             <img src="image/featured companies.png" alt="注目の企業" class="pick_up_companies">
             <img src="image/image 15.png" alt="OPLAN" class="oplan_company">
@@ -213,11 +211,13 @@
             <img src="image/Time Schedule.png" alt="スケジュール" class="time_schedule_title">
             <img src="image/time_schedule.png" alt="スケジュールサブタイトル" class="time_schedule_subtitle">
             <img src="image/background_4.png" alt="background_schedule" class="background_schedule">
+            <img src="image/AdobeStock_302690198 1.png" alt="background_schedule" class="background_schedule_sp">
 
-            <div class="schedule-grid">
+            <div id="scheduleGrid" class="schedule-grid">
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">10:00~</span>
+                    <span class="time_text_1">10:00~</span>
+                    <span class="time_text_sp1">10:00~</span>
                     <img src="image/Group 218.png" alt="Group 218" class="group-218">
                     <span class="new-text">今、SNSを始めるなら</span>
                     <span class="new-text_sp">「今、SNSを始めるなら」</span>
@@ -225,112 +225,114 @@
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">11:00~</span>
+                    <span class="time_text_2">11:00~</span>
+                    <span class="time_text_sp2">10:45~</span>
                     <img src="image/Group 167.png" alt="Group 167" class="group-167">
-                    <span class="new-text_2">会社員で出世する人と独立して成功する人の適正について</span>
-                    <span class="new-text_2_sp">「会社員で出世する人と独立して成功する人の適正について」</span>
+                    <span class="new_text_2">会社員で出世する人と独立して成功する人の適正について</span>
 
                 </div>
                 <div class="schedule-item">
                     <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">11:40~</span>
+                    <span class="time_text_3">11:40~</span>
+                    <span class="time_text_sp3">11:30~</span>
                     <img src="image/Group 168.png" alt="Group 168" class="group-168">
-                    <span class="new-text_3">営業出身のフリーランスの生存戦略</span>
-                    <span class="new-text_3_sp">「営業出身のフリーランスの生存戦略」</span>
+                    <span class="new_text_3">営業出身のフリーランスの生存戦略</span>
                 </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">12:20~</span>
-                    <img src="image/Group 169.png" alt="Group 169" class="group-169">
-                    <span class="new_text_4">無数のフリーランスに発注してわかった優秀な人の特徴</span>
-                    <span class="new_text_4_sp">「無数のフリーランスに発注してわかった優秀な人の特徴」</span>
 
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">13:00~</span>
-                    <img src="image/Group 166 .png" alt="Group 166" class="group-166">
-                    <span class="new_text_5_1">現役上場企業社長が語る</span>
-                    <span class="new_text_5_2">最新WEBマーケティング論</span>
-                    <span class="new_text_5_1_sp">「現役上場企業社長が語る」</span>
-                    <span class="new_text_5_2_sp">「最新WEBマーケティング論」</span>
+                <div id="hiddenItems" class="hidden" style="display: none;">
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_4">12:20~</span>
+                        <span class="time_text_sp4">12:15~</span>
+                        <img src="image/Group 169.png" alt="Group 169" class="group-169">
+                        <span class="new_text_4">無数のフリーランスに発注してわかった優秀な人の特徴</span>
 
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">13:30~</span>
-                    <img src="image/Group 170.png" alt="Group 170" class="group-170">
-                    <span class="new_text_6">月収300万円までのロードマップ</span>
-                    <span class="new_text_6_sp">「月収300万円までのロードマップ」</span>
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">14:20~</span>
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="new_text_7">SNSを伸ばした先に見える世界</span>
-                        <span class="new_text_7_sp">「SNSを伸ばした先に見える世界」</span>
-                   
-                    <!-- <img src="image/Mask group (2).png" alt="Mask group 2" class="mask-group-2"> -->
-                    <!-- <img src="image/Mask group (1).png" alt="Mask group 1" class="mask-group-1">
-                    <img src="image/Mask group (2).png" alt="Mask group 2" class="mask-group-2">
-                    <img src="image/Rectangle 127.png" alt="Rectangle 127" class="rectangle_127">
-                    <span class="speaker_name_1">やまもと りゅうけん</span>
-                    <span class="speaker_name_2">迫佑樹</span>
-                    <span class="speaker_name_3">青笹寛史</span>
-                    <img src="image/Group 176.png" alt="Group 176" class="group_176">
-                    <img src="image/Group 176.png" alt="Group 177" class="group_177"> -->
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">15:00~</span>
-                    <img src="image/inoue.png" alt="井上さん" class="inoue">
-                    <span class="new_text_8">元サイバーエージェント局長による広告業界の未来予想図</span>
-                    <span class="new_text_8_sp">「元サイバーエージェント局長による広告業界の未来予想図」</span>
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">15:40~</span>
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="new_text_9">エンジニアとして独立し、年収3000万円を超える方法</span>
-                    <img src="image/Group 211.png" alt="Group 211" class="group_211">
-                    <span class="new_text_9_sp">「エンジニアとして独立し、年収3000万円を超える方法」</span>
-                    <!-- <img src="image/Group 190.png" alt="Group 190" class="group_190">
-                    <img src="image/Group 189.png" alt="Group 189" class="group_189">
-                    <img src="image/Group 179.png" alt="Group 188" class="group_179">
-                    <img src="image/Group 176.png" alt="Group 175" class="group_175"> -->
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_5">13:00~</span>
+                        <span class="time_text_sp5">12:30~</span>
+                        <img src="image/Group 166 .png" alt="Group 166" class="group-166">
+                        <span class="new_text_5_1">現役上場企業社長が語る</span>
+                        <span class="new_text_5_2">最新WEBマーケティング論</span>
+                        <span class="new_text_5_1_sp">現役上場企業社長が語る最新</span>
+                        <span class="new_text_5_2_sp">WEBマーケティング論</span>
 
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">16:20~</span>
-                    <img src="image/Group 178 .png" alt="Group 178" class="group-178">
-                    <span class="new_text_10">累計300人以上、起業家を見て感じた成功法則</span>
-                    <span class="new_text_10_sp">「累計300人以上、起業家を見て感じた成功法則」</span>
-                </div>
-                <div class="schedule-item">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">17:00~</span>
-                    <img src="image/Group 223.png" alt="Group 223" class="group-223">
-                    <span class="new_text_11">フリーランスにおすすめのM＆Aトレンドを紹介</span>
-                    <span class="new_text_11_sp">「フリーランスにおすすめのM＆Aトレンドを紹介」</span>
-                </div>
-                <div class="schedule-item-mc">
-                    <img src="image/Group 219.png" alt="Group 219" class="group-219">
-                    <span class="time-text">MC</span>
-                    <img src="image/kane.png" alt="Kane" class="kane_image">
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_6">13:40~</span>
+                        <span class="time_text_sp6">13:00~</span>
+
+                        <img src="image/Group 170.png" alt="Group 170" class="group-170">
+                        <span class="new_text_6">月収300万円までのロードマップ</span>
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_7">14:20~</span>
+                        <span class="time_text_sp7">13:45~</span>
+                        <img src="image/Group 230.png" alt="Group 219" class="group-230">
+                        <span class="new_text_7">SNSを伸ばした先に見える世界</span>
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_8">15:00~</span>
+                        <span class="time_text_sp8">14:30~</span>
+
+                        <img src="image/inoue.png" alt="井上さん" class="inoue">
+
+                        <span class="new_text_8">元サイバーエージェント局長による広告業界の未来予想図</span>
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_9">15:40~</span>
+                        <span class="time_text_sp9">15:15~</span>
+
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="new_text_9">エンジニアとして独立し、年収3000万円を超える方法</span>
+                        <img src="image/Group 211.png" alt="Group 211" class="group_211">
+
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_10">16:20~</span>
+                        <span class="time_text_sp10">16:00~</span>
+
+                        <img src="image/Group 178 .png" alt="Group 178" class="group-178">
+                        <span class="new_text_10">累計300人以上、起業家を見て感じた成功法則</span>
+                    </div>
+                    <div class="schedule-item">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_11">17:00~</span>
+                        <span class="time_text_sp11">16:45~</span>
+                        <span class="new_text_mcsp">MC</span>
+
+                        <img src="image/Group 223.png" alt="Group 223" class="group-223">
+                        <img src="image/Group 215.png" alt="植本さん兼頭さん" class="kane_image_sp">
+
+                        <span class="new_text_11">フリーランスにおすすめのM＆Aトレンドを紹介</span>
+                    </div>
+                    <div class="schedule-item-mc">
+                        <img src="image/Group 219.png" alt="Group 219" class="group-219">
+                        <span class="time_text_12">MC</span>
+                        <img src="image/kane.png" alt="Kane" class="kane_image">
+                    </div>
                 </div>
             </div>
+            <img id="toggleSchedule" src="image/Read more.png" alt="スケジュールを表示/非表示" class="toggle-button">
         </section>
-                <!-- 
-        <section class="mt-12 faq-section">
+
+
+        <section class="faq-section">
             <img src="image/Polygon 5.png" alt="Background" class="faq_background">
             <img src="image/FAQ.png" alt="FAQ" class="faq_title">
             <img src="image/qa_title.png" alt="QA Title" class="qa_title">
+            <img src="image/qa_title_sp.png" alt="QA Title" class="qa_title_sp">
+
             <div class="faq_content">
                 <div class="faq-item">
                     <img src="image/Q.png" alt="Q1" class="q_icon1">
                     <img src="image/A.png" alt="A1" class="a_icon1">
-
                     <p class="question_1">再入場はできますか？</p>
                     <p class="answer_1">できます。</p>
                 </div>
@@ -351,18 +353,20 @@
                 </div>
             </div>
         </section>
-        </main>
+    </main>
 
-        <div class="content-wrapper">
-            <footer class="footer">
-                <div class="footer-content">
-                    <img src="image/button.png" alt="Button" class="footer-button">
-                    <img src="image/Vector 34.png" alt="line" class="footer-line">
-                    <img src="image/footer_logo.png" alt="footer_logo" class="footer_logo">
-                    <img src="image/個人情報保護方針.png" alt="privacy_policy" class="privacy_policy">
-                </div>
-            </footer>
-        </div>
+    <div class="content-wrapper">
+        <footer class="footer">
+            <div class="footer-content">
+                <img src="image/button.png" alt="Button" class="footer-button">
+                <img src="image/button_footer_sp.png" alt="Button" class="footer_button_sp">
+                <img src="image/Vector 34.png" alt="line" class="footer-line">
+                <img src="image/footer_logo.png" alt="footer_logo" class="footer_logo">
+                <img src="image/個人情報保護方針.png" alt="privacy_policy" class="privacy_policy">
+            </div>
+        </footer>
+    </div>
+    <script src="schedule.js"></script>
 </body>
 
-</html> -->
+</html>
