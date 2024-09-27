@@ -15,11 +15,11 @@
   max-height: 80vh;
 }
 
-.event_banner {
+/* .event_banner {
   width: 100%;
   height: auto;
   background-size: cover;
-}
+} */
 
 .stocksun_logo {
   position: absolute;
@@ -708,6 +708,18 @@ header .absolute {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
+}
+
+
+
+.event_banner {
+  background-image: url('../image/Group 183 (1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 15.4 / 9; 
 }
 
 .creava_company_text {
@@ -1733,7 +1745,7 @@ header .absolute {
 
 .faq_background {
   position: absolute;
-  top: 773%;
+  top: 777%;
   left: 0;
   width: 7%;
   height: auto;
@@ -1744,7 +1756,7 @@ header .absolute {
   position: absolute;
   width: 7%;
   height: auto;
-  top: 737%;
+  top: 741%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 1;
@@ -1754,7 +1766,7 @@ header .absolute {
   position: absolute;
   width: 209px;
   height: auto;
-  top: 747.3%;
+  top: 751.3%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 1;
@@ -1763,7 +1775,7 @@ header .absolute {
 .faq_content {
   position: absolute;
   z-index: 1;
-  top: 762%;
+  top: 765.5%;
   left: 22%;
   width: 133%;
   height: auto;
@@ -1982,19 +1994,15 @@ body {
 }
 
 .footer-line {
-  width: 1192px;
-  height: 0px;
-  top: 7042px;
+  width: 82.8%;
+  height: auto;
+  top: 160px;
   left: 124px;
+  position: absolute;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
 
-}
-
-.footer-line {
-  width: 82.8%;
-  height: auto;
 }
 
 .footer_logo {

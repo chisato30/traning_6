@@ -12,10 +12,12 @@
 <body>
     <img src="image/side_button.png" alt="Side Button" class="side_button">
     <header class="header">
-        <picture>
+    <div class="event_banner">
+    <img src="image/Group 184.png" alt="Event Banner" class="event_banner_sp">
+        <!-- <picture>
             <img src="image/Group 183 (1).png" alt="Event Banner" class="event_banner">
             <img src="image/Group 184.png" alt="Event Banner" class="event_banner_sp">
-        </picture>
+        </picture> -->
         <div class="header-content">
             <img src="image/日本最大規模のフリーランスイベント.png" alt="日本最大規模のフリーランスイベント" class="event_description">
             <img src="image/stocksun_logo.png" alt="StockSun Logo" class="stocksun_logo">
@@ -23,13 +25,14 @@
                 <source media="(max-width: 390px)" srcset="image/logo.png">
                 <img src="image/kv.svg" alt="FREELANCE SUMMIT" class="title">
             </picture>
-            <img src="image/sub_title.png" alt="Sub Title" class="sub_title">
+            <!-- <img src="image/sub_title.png" alt="Sub Title" class="sub_title"> -->
             <img src="image/sub_title.png" alt="suponserted by DYMテック" class="hide_dym">
             <img src="image/日付.png" alt="3/4 Sat 10:00-18:00" class="date_image">
             <img src="image/東京国際フォーラム ホールE2.png" alt="東京国際フォーラム ホールE2" class="venue_image">
             <a href="#" class="apply_button_rapper">
                 <img src="image/button (1).png" alt="参加申し込みはこちら (無料)" class="apply_button">
             </a>
+        </div>
         </div>
     </header>
 
