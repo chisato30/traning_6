@@ -10,32 +10,43 @@
 </head>
 
 <body>
-    <img src="image/side_button.png" alt="Side Button" class="side_button">
+    <!-- <img src="image/side_button.png" alt="Side Button" class="side_button"> -->
     <header class="header">
     <div class="event_banner">
-    <img src="image/Group 184.png" alt="Event Banner" class="event_banner_sp">
-        <!-- <picture>
-            <img src="image/Group 183 (1).png" alt="Event Banner" class="event_banner">
-            <img src="image/Group 184.png" alt="Event Banner" class="event_banner_sp">
-        </picture> -->
-        <div class="header-content">
-            <img src="image/日本最大規模のフリーランスイベント.png" alt="日本最大規模のフリーランスイベント" class="event_description">
+        <div class="header_content">
             <img src="image/stocksun_logo.png" alt="StockSun Logo" class="stocksun_logo">
-            <picture>
+            </div> 
+        <div class="title_top">
+            <p>日本最大規模のフリーランスイベント</p>
+        </div>
+        <div class="main_title">
+        <img src="image/kv.png" alt="main_title" class="maintitle">
+        </div>
+        <div class="date_time_dayofweek">
+            <p class="date_time">3/4 sat 10:00-18:00</p>
+        </div>
+        <div class="event_place">
+            <p class="event_place_text">東京国際フォーラム ホールE2</p>
+        </div>
+        <div class="apply_button_rapper">
+            <a href="#" class="apply_button_rapper_click">
+                <img src="image/button (1).png" alt="参加申し込みはこちら (無料)" class="apply_button">
+            </a>
+        </div>
+            <!-- <picture>
                 <source media="(max-width: 390px)" srcset="image/logo.png">
                 <img src="image/kv.svg" alt="FREELANCE SUMMIT" class="title">
             </picture>
-            <!-- <img src="image/sub_title.png" alt="Sub Title" class="sub_title"> -->
             <img src="image/sub_title.png" alt="suponserted by DYMテック" class="hide_dym">
             <img src="image/日付.png" alt="3/4 Sat 10:00-18:00" class="date_image">
             <img src="image/東京国際フォーラム ホールE2.png" alt="東京国際フォーラム ホールE2" class="venue_image">
             <a href="#" class="apply_button_rapper">
                 <img src="image/button (1).png" alt="参加申し込みはこちら (無料)" class="apply_button">
-            </a>
-        </div>
+            </a> -->
+
         </div>
     </header>
-
+<!-- 
     <main>
         <section class="text-center">
             <img src="image/Group 185.png" alt="Event Banner" class="main_background">
@@ -49,9 +60,9 @@
             <p class="event_details">
                 各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。
             </p>
-        </section>
+        </section> -->
 
-        <section class="mt-12">
+        <!-- <section class="mt-12">
             <img src="image/Event Summary.png" alt="Event Summary" class="event_summary_title">
             <div class="mt-8 space-y-4">
                 <div class="flex justify-between items-center">
@@ -368,7 +379,7 @@
                 <img src="image/個人情報保護方針.png" alt="privacy_policy" class="privacy_policy">
             </div>
         </footer>
-    </div>
+    </div> -->
     <script src="schedule.js"></script>
 </body>
 
